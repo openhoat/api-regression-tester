@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`API regression test should return equivalent results for "GET a book given a title" request: GET a book given a title  data 1`] = `
+[
+  {
+    "author": "Antoine de Saint-Exupéry",
+    "date": "13/2/2011",
+    "id": Any<String>,
+    "title": "Le Petit Prince",
+  },
+]
+`;
+
+exports[`API regression test should return equivalent results for "GET a book given a title" request: GET a book given a title  status 1`] = `200`;
+
+exports[`API regression test should return equivalent results for "GET a book" request: GET a book  data 1`] = `
+{
+  "author": "Victor Hugo",
+  "date": "13/2/2019",
+  "id": Any<String>,
+  "title": "Notre-Dame de Paris",
+}
+`;
+
+exports[`API regression test should return equivalent results for "GET a book" request: GET a book  status 1`] = `200`;
+
+exports[`API regression test should return equivalent results for "GET books" request: GET books  data 1`] = `
+[
+  {
+    "author": "Antoine de Saint-Exupéry",
+    "date": "13/2/2011",
+    "id": Any<String>,
+    "title": "Le Petit Prince",
+  },
+  {
+    "author": "Victor Hugo",
+    "date": "13/2/2019",
+    "id": Any<String>,
+    "title": "Notre-Dame de Paris",
+  },
+]
+`;
+
+exports[`API regression test should return equivalent results for "GET books" request: GET books  status 1`] = `200`;

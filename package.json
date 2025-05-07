@@ -1,0 +1,189 @@
+{
+  "name": "api-regression-tester",
+  "version": "1.0.0",
+  "description": "API regression test harness proof of concept",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "type": "commonjs",
+  "packageManager": "pnpm@10.10.0",
+  "engines": {
+    "node": "22.15.0",
+    "pnpm": "10.10.0"
+  },
+  "volta": {
+    "node": "22.15.0",
+    "pnpm": "10.10.0"
+  },
+  "scripts": {
+    "build": "wireit",
+    "build:transpile": "wireit",
+    "check": "wireit",
+    "check:fix": "wireit",
+    "clean": "wireit",
+    "clean:all": "wireit",
+    "clean:npm": "wireit",
+    "clean:npm:cache": "wireit",
+    "clean:ts": "wireit",
+    "clean:wireit": "rimraf -v .wireit",
+    "dev:servers": "tsx watch src/main/servers.ts",
+    "dev:server:actual": "tsx watch src/main/actual-server.ts",
+    "dev:server:legacy": "tsx watch src/main/legacy-server.ts",
+    "fix": "wireit",
+    "format": "wireit",
+    "format:fix": "wireit",
+    "generate:code": "tsx src/ai/index.ts",
+    "sonar:scan": "dotenv -c -- docker compose -f sonar/docker-compose.yaml up --force-recreate sonar-scanner",
+    "start": "node lib/index.js",
+    "test": "wireit",
+    "test:update": "wireit",
+    "validate": "wireit"
+  },
+  "dependencies": {
+    "@fastify/basic-auth": "6.2.0",
+    "@langchain/core": "0.3.72",
+    "@langchain/google-genai": "0.2.16",
+    "@langchain/mistralai": "0.2.1",
+    "@langchain/ollama": "0.2.3",
+    "@langchain/openai": "0.6.9",
+    "dayjs": "1.11.13",
+    "fastify": "5.5.0",
+    "lodash": "4.17.21",
+    "pino-pretty": "13.1.1",
+    "uuid": "11.1.0",
+    "wireit": "0.14.12",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.0",
+    "@jest/globals": "30.0.5",
+    "@types/lodash": "4.17.20",
+    "@types/node": "24.3.0",
+    "axios": "1.11.0",
+    "dotenv": "17.2.1",
+    "jest": "30.0.5",
+    "nock": "14.0.10",
+    "rimraf": "6.0.1",
+    "ts-jest": "29.4.1",
+    "tsx": "4.20.4",
+    "typescript": "5.9.2"
+  },
+  "wireit": {
+    "build": {
+      "dependencies": [
+        "build:transpile"
+      ]
+    },
+    "build:transpile": {
+      "command": "tsc",
+      "files": [
+        "src/**/*.ts",
+        "*.json"
+      ],
+      "output": [
+        "lib/**"
+      ],
+      "clean": "if-file-deleted"
+    },
+    "check": {
+      "command": "biome check .",
+      "files": [
+        "src/**",
+        "*.json",
+        "*.ts",
+        "*.yaml"
+      ],
+      "output": []
+    },
+    "check:fix": {
+      "command": "biome check --fix .",
+      "files": [
+        "src/**",
+        "*.json",
+        "*.ts",
+        "*.yaml"
+      ],
+      "output": []
+    },
+    "clean": {
+      "dependencies": [
+        "clean:dist",
+        "clean:lib",
+        "clean:ts"
+      ]
+    },
+    "clean:all": {
+      "dependencies": [
+        "clean",
+        "clean:npm",
+        "clean:wireit"
+      ]
+    },
+    "clean:dist": {
+      "command": "rimraf -v dist"
+    },
+    "clean:lib": {
+      "command": "rimraf -v lib"
+    },
+    "clean:npm": {
+      "command": "rimraf -v node_modules pnpm-lock.yaml",
+      "dependencies": [
+        "clean:npm:cache"
+      ]
+    },
+    "clean:npm:cache": {
+      "command": "rimraf -v -g '**/.npm'"
+    },
+    "clean:ts": {
+      "command": "rimraf -v -g '**/*.tsbuildinfo'"
+    },
+    "fix": {
+      "command": "pnpm test",
+      "dependencies": [
+        "generate:code"
+      ]
+    },
+    "format": {
+      "command": "biome format .",
+      "files": [
+        "src/**",
+        "*.json",
+        "*.ts",
+        "*.yaml"
+      ]
+    },
+    "format:fix": {
+      "command": "biome format --fix .",
+      "files": [
+        "src/**",
+        "*.json",
+        "*.ts",
+        "*.yaml"
+      ]
+    },
+    "test": {
+      "command": "jest",
+      "files": [
+        "src/**",
+        "*.json",
+        "*.ts",
+        "*.yaml"
+      ]
+    },
+    "test:update": {
+      "command": "jest -u",
+      "files": [
+        "src/**",
+        "*.json",
+        "*.ts",
+        "*.yaml"
+      ]
+    },
+    "validate": {
+      "dependencies": [
+        "build",
+        "check",
+        "test"
+      ]
+    }
+  }
+}
