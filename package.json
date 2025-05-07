@@ -1,0 +1,186 @@
+{
+  "name": "api-regression-tester",
+  "version": "1.0.0",
+  "description": "API regression test harness proof of concept",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "type": "commonjs",
+  "packageManager": "pnpm@10.10.0",
+  "engines": {
+    "node": "22.15.0",
+    "pnpm": "10.10.0"
+  },
+  "volta": {
+    "node": "22.15.0",
+    "pnpm": "10.10.0"
+  },
+  "scripts": {
+    "build": "wireit",
+    "build:transpile": "wireit",
+    "check": "wireit",
+    "check:fix": "wireit",
+    "clean": "wireit",
+    "clean:all": "wireit",
+    "clean:npm": "wireit",
+    "clean:npm:cache": "wireit",
+    "clean:ts": "wireit",
+    "clean:wireit": "rimraf -v .wireit",
+    "dev": "tsx watch src/index.ts",
+    "fix": "wireit",
+    "format": "wireit",
+    "format:fix": "wireit",
+    "generate:code": "tsx src/ai/index.ts",
+    "sonar:scan": "dotenv -c -- docker compose -f sonar/docker-compose.yaml up --force-recreate sonar-scanner",
+    "start": "node lib/index.js",
+    "test": "wireit",
+    "test:update": "wireit",
+    "validate": "wireit"
+  },
+  "dependencies": {
+    "@langchain/core": "0.3.62",
+    "@langchain/google-genai": "0.2.14",
+    "@langchain/mistralai": "0.2.1",
+    "@langchain/ollama": "0.2.3",
+    "@langchain/openai": "0.5.18",
+    "dayjs": "1.11.13",
+    "fastify": "5.4.0",
+    "pino-pretty": "13.0.0",
+    "uuid": "11.1.0",
+    "wireit": "0.14.12",
+    "zod": "^3.25.75"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.6",
+    "@jest/globals": "30.0.4",
+    "@types/lodash": "4.17.20",
+    "@types/node": "24.0.10",
+    "axios": "1.10.0",
+    "dotenv": "17.1.0",
+    "jest": "30.0.4",
+    "lodash": "4.17.21",
+    "nock": "14.0.5",
+    "rimraf": "6.0.1",
+    "ts-jest": "29.4.0",
+    "tsx": "4.20.3",
+    "typescript": "5.8.3"
+  },
+  "wireit": {
+    "build": {
+      "dependencies": [
+        "build:transpile"
+      ]
+    },
+    "build:transpile": {
+      "command": "tsc",
+      "files": [
+        "src/**/*.ts",
+        "*.json"
+      ],
+      "output": [
+        "lib/**"
+      ],
+      "clean": "if-file-deleted"
+    },
+    "check": {
+      "command": "biome check .",
+      "files": [
+        "src/**",
+        "*.json",
+        "*.ts",
+        "*.yaml"
+      ],
+      "output": []
+    },
+    "check:fix": {
+      "command": "biome check --fix .",
+      "files": [
+        "src/**",
+        "*.json",
+        "*.ts",
+        "*.yaml"
+      ],
+      "output": []
+    },
+    "clean": {
+      "dependencies": [
+        "clean:dist",
+        "clean:lib",
+        "clean:ts"
+      ]
+    },
+    "clean:all": {
+      "dependencies": [
+        "clean",
+        "clean:npm",
+        "clean:wireit"
+      ]
+    },
+    "clean:dist": {
+      "command": "rimraf -v dist"
+    },
+    "clean:lib": {
+      "command": "rimraf -v lib"
+    },
+    "clean:npm": {
+      "command": "rimraf -v node_modules pnpm-lock.yaml",
+      "dependencies": [
+        "clean:npm:cache"
+      ]
+    },
+    "clean:npm:cache": {
+      "command": "rimraf -v -g '**/.npm'"
+    },
+    "clean:ts": {
+      "command": "rimraf -v -g '**/*.tsbuildinfo'"
+    },
+    "fix": {
+      "command": "pnpm test",
+      "dependencies": [
+        "generate:code"
+      ]
+    },
+    "format": {
+      "command": "biome format .",
+      "files": [
+        "src/**",
+        "*.json",
+        "*.ts",
+        "*.yaml"
+      ]
+    },
+    "format:fix": {
+      "command": "biome format --fix .",
+      "files": [
+        "src/**",
+        "*.json",
+        "*.ts",
+        "*.yaml"
+      ]
+    },
+    "test": {
+      "command": "jest",
+      "files": [
+        "src/**",
+        "*.json",
+        "*.ts",
+        "*.yaml"
+      ]
+    },
+    "test:update": {
+      "command": "jest -u",
+      "files": [
+        "src/**",
+        "*.json",
+        "*.ts",
+        "*.yaml"
+      ]
+    },
+    "validate": {
+      "dependencies": [
+        "build",
+        "check",
+        "test"
+      ]
+    }
+  }
+}
