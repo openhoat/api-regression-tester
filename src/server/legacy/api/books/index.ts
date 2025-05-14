@@ -6,6 +6,7 @@ export interface Book {
   title: string
   author: string
   createdAt: number
+  updatedAt: string
 }
 
 const books: Book[] = [
@@ -14,12 +15,14 @@ const books: Book[] = [
     title: 'Notre-Dame de Paris',
     author: 'Victor Hugo',
     createdAt: 1550044806000,
+    updatedAt: '20/03/2025',
   },
   {
     id: uuidv4(),
     title: 'Le Petit Prince',
     author: 'Antoine de Saint-Exupéry',
     createdAt: 1297584006000,
+    updatedAt: '13/02/2025',
   },
 ]
 

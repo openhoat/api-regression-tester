@@ -7,6 +7,7 @@ exports[`API regression test should return equivalent results for "GET a book gi
     "date": "13/2/2011",
     "id": Any<String>,
     "title": "Le Petit Prince",
+    "updated": "13/2/2025",
   },
 ]
 `;
@@ -19,6 +20,7 @@ exports[`API regression test should return equivalent results for "GET a book" r
   "date": "13/2/2019",
   "id": Any<String>,
   "title": "Notre-Dame de Paris",
+  "updated": "20/3/2025",
 }
 `;
 
@@ -31,12 +33,14 @@ exports[`API regression test should return equivalent results for "GET books" re
     "date": "13/2/2011",
     "id": Any<String>,
     "title": "Le Petit Prince",
+    "updated": "13/2/2025",
   },
   {
     "author": "Victor Hugo",
     "date": "13/2/2019",
     "id": Any<String>,
     "title": "Notre-Dame de Paris",
+    "updated": "20/3/2025",
   },
 ]
 `;
