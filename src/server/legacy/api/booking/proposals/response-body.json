@@ -1,0 +1,5526 @@
+{
+  "id": "9ff6d04a-5a40-43de-9ed6-279ac90456de",
+  "state": {
+    "details": {
+      "workflowMessages": {}
+    }
+  },
+  "travels": [
+    {
+      "recommendations": [],
+      "warnings": [],
+      "id": "6b365827-6690-4e5b-ba54-47aec666e8a8",
+      "originLocalityId": "30b25423-6027-47c4-b85b-81af7f0ad2a1",
+      "destinationLocalityId": "ad6d26ea-0973-4683-9f9c-6eb0f22fa23d",
+      "departureDateTime": "2025-08-12T08:22:00",
+      "arrivalDateTime": "2025-08-12T12:12:00",
+      "zonedDepartureDateTime": "2025-08-12T08:22:00+02:00",
+      "zonedArrivalDateTime": "2025-08-12T12:12:00+02:00",
+      "secondDuration": 13800,
+      "segments": [
+        {
+          "id": "f9d8a1a8-6f51-41f3-bcd1-4ad6005e03bd",
+          "type": "TRAIN",
+          "mode": "TRANSIT",
+          "originLocalityId": "30b25423-6027-47c4-b85b-81af7f0ad2a1",
+          "destinationLocalityId": "ad6d26ea-0973-4683-9f9c-6eb0f22fa23d",
+          "departureDateTime": "2025-08-12T08:22:00",
+          "zonedDepartureDateTime": "2025-08-12T08:22:00+02:00",
+          "arrivalDateTime": "2025-08-12T12:12:00",
+          "zonedArrivalDateTime": "2025-08-12T12:12:00+02:00",
+          "secondDuration": 13800,
+          "vehicles": [
+            {
+              "identifier": "8711",
+              "onBoardServices": [
+                "VOITURE_BAR",
+                "HANDICAPE",
+                "NURSERIE",
+                "VELO_PAYANT",
+                "WIFI"
+              ],
+              "state": "QUOTABLE",
+              "proposalProvider": "VSH",
+              "metaData": {},
+              "boardingPositionAdvices": [],
+              "stops": [],
+              "conjuncturalMessageIds": [],
+              "onBoardServicesWithStatus": [
+                {
+                  "service": "NURSERY_SERVICE",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "FAMILY_AREA",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "ACCESSIBILITY",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "WIFI",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "PRIVATE_COMPARTMENT_SECOND",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "POWER_OUTLET",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "PAID_BIKE",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "BAR",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "ACCESSIBILITY_AND_HMR",
+                  "status": "UNKNOWN"
+                }
+              ]
+            }
+          ],
+          "stops": [
+            {
+              "localityId": "879c3a89-44d5-48dd-b4e2-628af7b8c35d"
+            },
+            {
+              "localityId": "ddc064e7-453b-45a1-8c2b-7c7bca603a2a"
+            },
+            {
+              "localityId": "32f0bb5f-b919-480c-b17d-abb361ada1cd"
+            },
+            {
+              "localityId": "bf0a72d1-af60-436a-a4b1-680223bda81f"
+            },
+            {
+              "localityId": "3fa421ef-8db4-45a3-a622-2b126a53d8b9"
+            }
+          ],
+          "state": {
+            "realTimeInformations": null
+          },
+          "metaData": {
+            "SIDH": {
+              "@type": "SidhSegment",
+              "equipement": "TGF",
+              "company": null
+            },
+            "PAO": {
+              "@type": "PaoSegment",
+              "id": "_:3286b1ac-2c89-4033-9156-02f456bfb254"
+            }
+          },
+          "transporter": {
+            "type": "TRAIN",
+            "label": "TGV INOUI",
+            "distributor": "SNCF",
+            "company": "SNCF",
+            "code": "TGV_INOUI",
+            "mode": "HIGH_SPEED_TRAIN",
+            "operator": {
+              "label": null,
+              "code": "SNCF_RAILWAY",
+              "additionalCodes": [
+                {
+                  "type": "RICS",
+                  "value": "1187"
+                }
+              ]
+            },
+            "network": "UNKNOWN",
+            "commercialInformation": {
+              "line": null,
+              "brandLabel": null,
+              "brandGroup": null,
+              "fontColor": null,
+              "backgroundColor": null,
+              "direction": null
+            },
+            "metaData": {
+              "PAO": {
+                "@type": "PaoTransporter",
+                "transportationServiceOfferCode": "INOUI"
+              }
+            },
+            "operatingCarrier": "SNCF_RAILWAY"
+          },
+          "wayOut": null,
+          "shape": [],
+          "transferIn": null,
+          "transferOut": null,
+          "directions": [],
+          "features": [],
+          "operatingConditions": [],
+          "vehiculeType": "TRAIN",
+          "onBoardServices": [
+            "VOITURE_BAR",
+            "HANDICAPE",
+            "NURSERIE",
+            "VELO_PAYANT",
+            "WIFI"
+          ],
+          "identifier": "8711"
+        }
+      ],
+      "proposals": [
+        {
+          "id": "f8d138b2-5f87-469a-808f-eaf726dd0973",
+          "price": {
+            "value": 47.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 160,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "5f8ee894-bca9-464d-a4d3-8cd78ac95b0f",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-0"
+                }
+              },
+              "productId": "edf470dd-e6d2-4d1d-abfe-87cf0e072153",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "6069231c-991b-4c4f-9977-2d3b5a1f3560",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_SHARED",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "ADDITIONAL",
+                  "code": "VELO_PAYANT",
+                  "price": {
+                    "value": 10.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [
+                    {
+                      "type": "PASSENGER",
+                      "remainingSlots": 1
+                    },
+                    {
+                      "type": "VEHICLE",
+                      "remainingSlots": 4
+                    }
+                  ],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "MetaDataCodeAndType",
+                      "code": "/catalog/products/SVEP_VOYAGES_S3",
+                      "type": "proposedAncillaryServices"
+                    }
+                  },
+                  "remainingQuantity": {
+                    "type": "PASSENGER",
+                    "remainingSlots": 1
+                  },
+                  "categories": ["BIKE"]
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 47.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 47.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "6069231c-991b-4c4f-9977-2d3b5a1f3560",
+              "segmentId": "f9d8a1a8-6f51-41f3-bcd1-4ad6005e03bd",
+              "travelClass": "SECOND",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_SECOND",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "FENETRE",
+                  "HAUT",
+                  "COULOIR",
+                  "VISION_IMPAIRED",
+                  "BAS",
+                  "CLUB_QUATRE",
+                  "PRIORITY_SEAT",
+                  "DUO_COTE_A_COTE"
+                ],
+                "comfortSpaceIds": ["ESPACE_FAMILLE"],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:3286b1ac-2c89-4033-9156-02f456bfb254"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_SECOND",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "FENETRE",
+                    "HAUT",
+                    "COULOIR",
+                    "VISION_IMPAIRED",
+                    "BAS",
+                    "CLUB_QUATRE",
+                    "PRIORITY_SEAT",
+                    "DUO_COTE_A_COTE"
+                  ],
+                  "comfortSpaceIds": ["ESPACE_FAMILLE"],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 47.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["5f8ee894-bca9-464d-a4d3-8cd78ac95b0f"]
+            }
+          ],
+          "flexibility": "NO_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "SECOND",
+          "expirationDate": "2025-07-23T11:21:10.225755023+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        },
+        {
+          "id": "1cb37e5d-5729-42ec-acb5-ae5a928c05fe",
+          "price": {
+            "value": 61.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 41,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "3997b6ad-c147-4ec2-a2c6-bc576b64d637",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-1"
+                }
+              },
+              "productId": "3304cf33-26ff-4a1a-96d8-a45a39190c9f",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "be2f8829-fdc1-4d8d-98ed-326de7181040",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_SHARED",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "ADDITIONAL",
+                  "code": "VELO_PAYANT",
+                  "price": {
+                    "value": 10.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [
+                    {
+                      "type": "PASSENGER",
+                      "remainingSlots": 1
+                    },
+                    {
+                      "type": "VEHICLE",
+                      "remainingSlots": 4
+                    }
+                  ],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "MetaDataCodeAndType",
+                      "code": "/catalog/products/SVEP_VOYAGES_S3",
+                      "type": "proposedAncillaryServices"
+                    }
+                  },
+                  "remainingQuantity": {
+                    "type": "PASSENGER",
+                    "remainingSlots": 1
+                  },
+                  "categories": ["BIKE"]
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 61.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 61.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "be2f8829-fdc1-4d8d-98ed-326de7181040",
+              "segmentId": "f9d8a1a8-6f51-41f3-bcd1-4ad6005e03bd",
+              "travelClass": "SECOND",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_SECOND",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "FENETRE",
+                  "HAUT",
+                  "COULOIR",
+                  "VISION_IMPAIRED",
+                  "BAS",
+                  "CLUB_QUATRE",
+                  "PRIORITY_SEAT",
+                  "DUO_COTE_A_COTE"
+                ],
+                "comfortSpaceIds": ["ESPACE_FAMILLE"],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:3286b1ac-2c89-4033-9156-02f456bfb254"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_SECOND",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "FENETRE",
+                    "HAUT",
+                    "COULOIR",
+                    "VISION_IMPAIRED",
+                    "BAS",
+                    "CLUB_QUATRE",
+                    "PRIORITY_SEAT",
+                    "DUO_COTE_A_COTE"
+                  ],
+                  "comfortSpaceIds": ["ESPACE_FAMILLE"],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 61.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["3997b6ad-c147-4ec2-a2c6-bc576b64d637"]
+            }
+          ],
+          "flexibility": "CONDITIONAL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "SECOND",
+          "expirationDate": "2025-07-23T11:21:10.247042078+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        },
+        {
+          "id": "329c34da-2e2a-4111-9225-f91501517e4a",
+          "price": {
+            "value": 67.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 16,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "840aae85-8297-4b7e-bc4b-55ce61f1e949",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-2"
+                }
+              },
+              "productId": "94b3ede8-a9b0-4adc-8850-3f1c39c383e7",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "93a7b563-dd58-441c-8d72-02dc50a445e2",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_INDIVIDUAL",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "COMFORT",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 67.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 67.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "93a7b563-dd58-441c-8d72-02dc50a445e2",
+              "segmentId": "f9d8a1a8-6f51-41f3-bcd1-4ad6005e03bd",
+              "travelClass": "FIRST",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "SEAT_MAP",
+                  "options": [],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "PaoSeatMapRequest",
+                      "paoCookie": "AWS-INT11",
+                      "numberOfPassengers": 1,
+                      "language": "fr",
+                      "paoTrainSegmentId": "_:3286b1ac-2c89-4033-9156-02f456bfb254",
+                      "paoRailTransportationId": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-2"
+                    }
+                  }
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_FIRST",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "CLUB_QUATRE",
+                  "VISION_IMPAIRED",
+                  "FENETRE",
+                  "DUO_VIS_A_VIS",
+                  "SOLO",
+                  "DUO_COTE_A_COTE",
+                  "BAS",
+                  "COULOIR",
+                  "PRIORITY_SEAT",
+                  "HAUT"
+                ],
+                "comfortSpaceIds": [],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:3286b1ac-2c89-4033-9156-02f456bfb254"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_FIRST",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "CLUB_QUATRE",
+                    "VISION_IMPAIRED",
+                    "FENETRE",
+                    "DUO_VIS_A_VIS",
+                    "SOLO",
+                    "DUO_COTE_A_COTE",
+                    "BAS",
+                    "COULOIR",
+                    "PRIORITY_SEAT",
+                    "HAUT"
+                  ],
+                  "comfortSpaceIds": [],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 67.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["840aae85-8297-4b7e-bc4b-55ce61f1e949"]
+            }
+          ],
+          "flexibility": "CONDITIONAL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "FIRST",
+          "expirationDate": "2025-07-23T11:21:10.249632865+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        },
+        {
+          "id": "03604d4c-b04d-4f6d-a6e7-bd22294e3c23",
+          "price": {
+            "value": 169.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 286,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "1ff4a25a-2fe2-4318-b7e5-677017ad4d66",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-3"
+                }
+              },
+              "productId": "7bdac11f-8622-484f-817b-2f5be210488d",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "3b9848ee-ae00-48d9-9fe3-7eb2b05b9d5f",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_DEDICATED_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_INDIVIDUAL",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "LOUNGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "COMFORT",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FULL_FLEX",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 169.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 169.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "3b9848ee-ae00-48d9-9fe3-7eb2b05b9d5f",
+              "segmentId": "f9d8a1a8-6f51-41f3-bcd1-4ad6005e03bd",
+              "travelClass": "FIRST",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "SEAT_MAP",
+                  "options": [],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "PaoSeatMapRequest",
+                      "paoCookie": "AWS-INT11",
+                      "numberOfPassengers": 1,
+                      "language": "fr",
+                      "paoTrainSegmentId": "_:3286b1ac-2c89-4033-9156-02f456bfb254",
+                      "paoRailTransportationId": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-3"
+                    }
+                  }
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_FIRST",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "CLUB_QUATRE",
+                  "VISION_IMPAIRED",
+                  "FENETRE",
+                  "DUO_VIS_A_VIS",
+                  "SOLO",
+                  "DUO_COTE_A_COTE",
+                  "BAS",
+                  "COULOIR",
+                  "PRIORITY_SEAT",
+                  "HAUT"
+                ],
+                "comfortSpaceIds": [],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:3286b1ac-2c89-4033-9156-02f456bfb254"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_FIRST",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "CLUB_QUATRE",
+                    "VISION_IMPAIRED",
+                    "FENETRE",
+                    "DUO_VIS_A_VIS",
+                    "SOLO",
+                    "DUO_COTE_A_COTE",
+                    "BAS",
+                    "COULOIR",
+                    "PRIORITY_SEAT",
+                    "HAUT"
+                  ],
+                  "comfortSpaceIds": [],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 169.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["1ff4a25a-2fe2-4318-b7e5-677017ad4d66"]
+            }
+          ],
+          "flexibility": "FULL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "FIRST",
+          "expirationDate": "2025-07-23T11:21:10.250501798+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        }
+      ],
+      "travelState": {
+        "travelStatus": "NONE",
+        "unsellableReasonInfo": {
+          "unsellableReason": "NONE",
+          "errorMessages": []
+        },
+        "realTimeInformations": null,
+        "unsellableReason": "NONE"
+      },
+      "travelType": "NORMAL",
+      "metaData": {
+        "PAO": {
+          "@type": "PaoTravel",
+          "cookie": "AWS-INT11",
+          "applicationVersion": "199",
+          "referenceDataVersion": "199_2_10514_0"
+        }
+      },
+      "carbonFootprintKg": 1.9
+    },
+    {
+      "recommendations": [],
+      "warnings": [],
+      "id": "151594cb-35e1-4c48-bb78-d356854fb305",
+      "originLocalityId": "30b25423-6027-47c4-b85b-81af7f0ad2a1",
+      "destinationLocalityId": "ad6d26ea-0973-4683-9f9c-6eb0f22fa23d",
+      "departureDateTime": "2025-08-12T10:57:00",
+      "arrivalDateTime": "2025-08-12T14:34:00",
+      "zonedDepartureDateTime": "2025-08-12T10:57:00+02:00",
+      "zonedArrivalDateTime": "2025-08-12T14:34:00+02:00",
+      "secondDuration": 13020,
+      "segments": [
+        {
+          "id": "1863da39-4275-414d-b93f-0720c074c291",
+          "type": "TRAIN",
+          "mode": "TRANSIT",
+          "originLocalityId": "30b25423-6027-47c4-b85b-81af7f0ad2a1",
+          "destinationLocalityId": "ad6d26ea-0973-4683-9f9c-6eb0f22fa23d",
+          "departureDateTime": "2025-08-12T10:57:00",
+          "zonedDepartureDateTime": "2025-08-12T10:57:00+02:00",
+          "arrivalDateTime": "2025-08-12T14:34:00",
+          "zonedArrivalDateTime": "2025-08-12T14:34:00+02:00",
+          "secondDuration": 13020,
+          "vehicles": [
+            {
+              "identifier": "8715",
+              "onBoardServices": [
+                "VOITURE_BAR",
+                "HANDICAPE",
+                "NURSERIE",
+                "VELO_PAYANT",
+                "WIFI"
+              ],
+              "state": "QUOTABLE",
+              "proposalProvider": "VSH",
+              "metaData": {},
+              "boardingPositionAdvices": [],
+              "stops": [],
+              "conjuncturalMessageIds": [],
+              "onBoardServicesWithStatus": [
+                {
+                  "service": "NURSERY_SERVICE",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "FAMILY_AREA",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "ACCESSIBILITY",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "WIFI",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "PRIVATE_COMPARTMENT_SECOND",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "POWER_OUTLET",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "PAID_BIKE",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "BAR",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "ACCESSIBILITY_AND_HMR",
+                  "status": "UNKNOWN"
+                }
+              ]
+            }
+          ],
+          "stops": [
+            {
+              "localityId": "879c3a89-44d5-48dd-b4e2-628af7b8c35d"
+            },
+            {
+              "localityId": "32f0bb5f-b919-480c-b17d-abb361ada1cd"
+            },
+            {
+              "localityId": "bf0a72d1-af60-436a-a4b1-680223bda81f"
+            },
+            {
+              "localityId": "3fa421ef-8db4-45a3-a622-2b126a53d8b9"
+            }
+          ],
+          "state": {
+            "realTimeInformations": null
+          },
+          "metaData": {
+            "SIDH": {
+              "@type": "SidhSegment",
+              "equipement": "TGF",
+              "company": null
+            },
+            "PAO": {
+              "@type": "PaoSegment",
+              "id": "_:b0b6d598-7b2a-4911-81ac-fb8d445ea6ae"
+            }
+          },
+          "transporter": {
+            "type": "TRAIN",
+            "label": "TGV INOUI",
+            "distributor": "SNCF",
+            "company": "SNCF",
+            "code": "TGV_INOUI",
+            "mode": "HIGH_SPEED_TRAIN",
+            "operator": {
+              "label": null,
+              "code": "SNCF_RAILWAY",
+              "additionalCodes": [
+                {
+                  "type": "RICS",
+                  "value": "1187"
+                }
+              ]
+            },
+            "network": "UNKNOWN",
+            "commercialInformation": {
+              "line": null,
+              "brandLabel": null,
+              "brandGroup": null,
+              "fontColor": null,
+              "backgroundColor": null,
+              "direction": null
+            },
+            "metaData": {
+              "PAO": {
+                "@type": "PaoTransporter",
+                "transportationServiceOfferCode": "INOUI"
+              }
+            },
+            "operatingCarrier": "SNCF_RAILWAY"
+          },
+          "wayOut": null,
+          "shape": [],
+          "transferIn": null,
+          "transferOut": null,
+          "directions": [],
+          "features": [],
+          "operatingConditions": [],
+          "vehiculeType": "TRAIN",
+          "onBoardServices": [
+            "VOITURE_BAR",
+            "HANDICAPE",
+            "NURSERIE",
+            "VELO_PAYANT",
+            "WIFI"
+          ],
+          "identifier": "8715"
+        }
+      ],
+      "proposals": [
+        {
+          "id": "9b41ec2b-5785-4d6c-be05-574ff9bbdfba",
+          "price": {
+            "value": 29.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 77,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "7f92bb38-baea-4ec7-b736-a89ee2573243",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-4"
+                }
+              },
+              "productId": "3304cf33-26ff-4a1a-96d8-a45a39190c9f",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "f3764038-96f6-4f0e-a9d7-8aecd8f754bb",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_SHARED",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "ADDITIONAL",
+                  "code": "VELO_PAYANT",
+                  "price": {
+                    "value": 10.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [
+                    {
+                      "type": "PASSENGER",
+                      "remainingSlots": 1
+                    },
+                    {
+                      "type": "VEHICLE",
+                      "remainingSlots": 2
+                    }
+                  ],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "MetaDataCodeAndType",
+                      "code": "/catalog/products/SVEP_VOYAGES_S3",
+                      "type": "proposedAncillaryServices"
+                    }
+                  },
+                  "remainingQuantity": {
+                    "type": "PASSENGER",
+                    "remainingSlots": 1
+                  },
+                  "categories": ["BIKE"]
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 29.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 29.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "f3764038-96f6-4f0e-a9d7-8aecd8f754bb",
+              "segmentId": "1863da39-4275-414d-b93f-0720c074c291",
+              "travelClass": "SECOND",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_SECOND",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "FENETRE",
+                  "HAUT",
+                  "COULOIR",
+                  "VISION_IMPAIRED",
+                  "BAS",
+                  "CLUB_QUATRE",
+                  "PRIORITY_SEAT",
+                  "DUO_COTE_A_COTE"
+                ],
+                "comfortSpaceIds": ["ESPACE_FAMILLE"],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:b0b6d598-7b2a-4911-81ac-fb8d445ea6ae"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_SECOND",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "FENETRE",
+                    "HAUT",
+                    "COULOIR",
+                    "VISION_IMPAIRED",
+                    "BAS",
+                    "CLUB_QUATRE",
+                    "PRIORITY_SEAT",
+                    "DUO_COTE_A_COTE"
+                  ],
+                  "comfortSpaceIds": ["ESPACE_FAMILLE"],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 29.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["7f92bb38-baea-4ec7-b736-a89ee2573243"]
+            }
+          ],
+          "flexibility": "CONDITIONAL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "SECOND",
+          "expirationDate": "2025-07-23T11:21:10.25265823+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        },
+        {
+          "id": "91045231-0793-43dc-8b44-94bde97d133c",
+          "price": {
+            "value": 35.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 22,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "f70f11e8-6f68-4f98-a847-13d335ceb9b6",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-5"
+                }
+              },
+              "productId": "94b3ede8-a9b0-4adc-8850-3f1c39c383e7",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "19a54bad-2ae9-4222-a629-3942014ebf8c",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_INDIVIDUAL",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "COMFORT",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 35.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 35.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "19a54bad-2ae9-4222-a629-3942014ebf8c",
+              "segmentId": "1863da39-4275-414d-b93f-0720c074c291",
+              "travelClass": "FIRST",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "SEAT_MAP",
+                  "options": [],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "PaoSeatMapRequest",
+                      "paoCookie": "AWS-INT11",
+                      "numberOfPassengers": 1,
+                      "language": "fr",
+                      "paoTrainSegmentId": "_:b0b6d598-7b2a-4911-81ac-fb8d445ea6ae",
+                      "paoRailTransportationId": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-5"
+                    }
+                  }
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_FIRST",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "CLUB_QUATRE",
+                  "VISION_IMPAIRED",
+                  "FENETRE",
+                  "DUO_VIS_A_VIS",
+                  "SOLO",
+                  "DUO_COTE_A_COTE",
+                  "BAS",
+                  "COULOIR",
+                  "PRIORITY_SEAT",
+                  "HAUT"
+                ],
+                "comfortSpaceIds": [],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:b0b6d598-7b2a-4911-81ac-fb8d445ea6ae"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_FIRST",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "CLUB_QUATRE",
+                    "VISION_IMPAIRED",
+                    "FENETRE",
+                    "DUO_VIS_A_VIS",
+                    "SOLO",
+                    "DUO_COTE_A_COTE",
+                    "BAS",
+                    "COULOIR",
+                    "PRIORITY_SEAT",
+                    "HAUT"
+                  ],
+                  "comfortSpaceIds": [],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 35.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["f70f11e8-6f68-4f98-a847-13d335ceb9b6"]
+            }
+          ],
+          "flexibility": "CONDITIONAL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "FIRST",
+          "expirationDate": "2025-07-23T11:21:10.254883973+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        },
+        {
+          "id": "3d9ca172-dee5-46b9-9510-799e0d7d4b79",
+          "price": {
+            "value": 174.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 39,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "014a1e37-1ab1-40f5-ad9b-206508335f3e",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-6"
+                }
+              },
+              "productId": "b86f783f-d3a4-4546-ba96-a067dc7e8d4e",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "a966bba6-47fd-4900-88a1-67a7ac1bc507",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_DEDICATED_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "LOUNGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "COMFORT",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FULL_FLEX",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 174.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 174.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "a966bba6-47fd-4900-88a1-67a7ac1bc507",
+              "segmentId": "1863da39-4275-414d-b93f-0720c074c291",
+              "travelClass": "FIRST",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "SEAT_MAP",
+                  "options": [],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "PaoSeatMapRequest",
+                      "paoCookie": "AWS-INT11",
+                      "numberOfPassengers": 1,
+                      "language": "fr",
+                      "paoTrainSegmentId": "_:b0b6d598-7b2a-4911-81ac-fb8d445ea6ae",
+                      "paoRailTransportationId": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-6"
+                    }
+                  }
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_FIRST",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "VISION_IMPAIRED",
+                  "COULOIR",
+                  "BAS",
+                  "FENETRE",
+                  "DUO_VIS_A_VIS",
+                  "PRIORITY_SEAT",
+                  "HAUT",
+                  "CLUB_QUATRE",
+                  "SOLO",
+                  "DUO_COTE_A_COTE"
+                ],
+                "comfortSpaceIds": [],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:b0b6d598-7b2a-4911-81ac-fb8d445ea6ae"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_FIRST",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "VISION_IMPAIRED",
+                    "COULOIR",
+                    "BAS",
+                    "FENETRE",
+                    "DUO_VIS_A_VIS",
+                    "PRIORITY_SEAT",
+                    "HAUT",
+                    "CLUB_QUATRE",
+                    "SOLO",
+                    "DUO_COTE_A_COTE"
+                  ],
+                  "comfortSpaceIds": [],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 174.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["014a1e37-1ab1-40f5-ad9b-206508335f3e"]
+            }
+          ],
+          "flexibility": "FULL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "FIRST",
+          "expirationDate": "2025-07-23T11:21:10.255710351+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        }
+      ],
+      "travelState": {
+        "travelStatus": "NONE",
+        "unsellableReasonInfo": {
+          "unsellableReason": "NONE",
+          "errorMessages": []
+        },
+        "realTimeInformations": null,
+        "unsellableReason": "NONE"
+      },
+      "travelType": "NORMAL",
+      "metaData": {
+        "PAO": {
+          "@type": "PaoTravel",
+          "cookie": "AWS-INT11",
+          "applicationVersion": "199",
+          "referenceDataVersion": "199_2_10514_0"
+        }
+      },
+      "carbonFootprintKg": 1.9
+    },
+    {
+      "recommendations": [],
+      "warnings": [],
+      "id": "19c887f7-a3b7-4db4-809d-0d15674b7e79",
+      "originLocalityId": "30b25423-6027-47c4-b85b-81af7f0ad2a1",
+      "destinationLocalityId": "ad6d26ea-0973-4683-9f9c-6eb0f22fa23d",
+      "departureDateTime": "2025-08-12T16:57:00",
+      "arrivalDateTime": "2025-08-12T20:34:00",
+      "zonedDepartureDateTime": "2025-08-12T16:57:00+02:00",
+      "zonedArrivalDateTime": "2025-08-12T20:34:00+02:00",
+      "secondDuration": 13020,
+      "segments": [
+        {
+          "id": "b294ab4a-f1b2-466b-af17-793d3c75dc85",
+          "type": "TRAIN",
+          "mode": "TRANSIT",
+          "originLocalityId": "30b25423-6027-47c4-b85b-81af7f0ad2a1",
+          "destinationLocalityId": "ad6d26ea-0973-4683-9f9c-6eb0f22fa23d",
+          "departureDateTime": "2025-08-12T16:57:00",
+          "zonedDepartureDateTime": "2025-08-12T16:57:00+02:00",
+          "arrivalDateTime": "2025-08-12T20:34:00",
+          "zonedArrivalDateTime": "2025-08-12T20:34:00+02:00",
+          "secondDuration": 13020,
+          "vehicles": [
+            {
+              "identifier": "8729",
+              "onBoardServices": [
+                "VOITURE_BAR",
+                "HANDICAPE",
+                "NURSERIE",
+                "VELO_PAYANT",
+                "WIFI"
+              ],
+              "state": "QUOTABLE",
+              "proposalProvider": "VSH",
+              "metaData": {},
+              "boardingPositionAdvices": [],
+              "stops": [],
+              "conjuncturalMessageIds": [],
+              "onBoardServicesWithStatus": [
+                {
+                  "service": "NURSERY_SERVICE",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "FAMILY_AREA",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "ACCESSIBILITY",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "WIFI",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "PRIVATE_COMPARTMENT_SECOND",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "POWER_OUTLET",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "PAID_BIKE",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "BAR",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "ACCESSIBILITY_AND_HMR",
+                  "status": "UNKNOWN"
+                }
+              ]
+            }
+          ],
+          "stops": [
+            {
+              "localityId": "879c3a89-44d5-48dd-b4e2-628af7b8c35d"
+            },
+            {
+              "localityId": "32f0bb5f-b919-480c-b17d-abb361ada1cd"
+            },
+            {
+              "localityId": "bf0a72d1-af60-436a-a4b1-680223bda81f"
+            },
+            {
+              "localityId": "3fa421ef-8db4-45a3-a622-2b126a53d8b9"
+            }
+          ],
+          "state": {
+            "realTimeInformations": null
+          },
+          "metaData": {
+            "SIDH": {
+              "@type": "SidhSegment",
+              "equipement": "TGF",
+              "company": null
+            },
+            "PAO": {
+              "@type": "PaoSegment",
+              "id": "_:aa2c3e1c-5ec1-4df7-82a0-e215adda9623"
+            }
+          },
+          "transporter": {
+            "type": "TRAIN",
+            "label": "TGV INOUI",
+            "distributor": "SNCF",
+            "company": "SNCF",
+            "code": "TGV_INOUI",
+            "mode": "HIGH_SPEED_TRAIN",
+            "operator": {
+              "label": null,
+              "code": "SNCF_RAILWAY",
+              "additionalCodes": [
+                {
+                  "type": "RICS",
+                  "value": "1187"
+                }
+              ]
+            },
+            "network": "UNKNOWN",
+            "commercialInformation": {
+              "line": null,
+              "brandLabel": null,
+              "brandGroup": null,
+              "fontColor": null,
+              "backgroundColor": null,
+              "direction": null
+            },
+            "metaData": {
+              "PAO": {
+                "@type": "PaoTransporter",
+                "transportationServiceOfferCode": "INOUI"
+              }
+            },
+            "operatingCarrier": "SNCF_RAILWAY"
+          },
+          "wayOut": null,
+          "shape": [],
+          "transferIn": null,
+          "transferOut": null,
+          "directions": [],
+          "features": [],
+          "operatingConditions": [],
+          "vehiculeType": "TRAIN",
+          "onBoardServices": [
+            "VOITURE_BAR",
+            "HANDICAPE",
+            "NURSERIE",
+            "VELO_PAYANT",
+            "WIFI"
+          ],
+          "identifier": "8729"
+        }
+      ],
+      "proposals": [
+        {
+          "id": "8a705558-2dad-49e2-9143-f0945bae57e8",
+          "price": {
+            "value": 76.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 18,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "ff1570cf-aefa-4e57-9658-3f36b4a3df61",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-7"
+                }
+              },
+              "productId": "3304cf33-26ff-4a1a-96d8-a45a39190c9f",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "bedf07f7-1c54-462d-8386-1dd3f53ed804",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_SHARED",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "ADDITIONAL",
+                  "code": "VELO_PAYANT",
+                  "price": {
+                    "value": 10.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [
+                    {
+                      "type": "PASSENGER",
+                      "remainingSlots": 1
+                    },
+                    {
+                      "type": "VEHICLE",
+                      "remainingSlots": 2
+                    }
+                  ],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "MetaDataCodeAndType",
+                      "code": "/catalog/products/SVEP_VOYAGES_S3",
+                      "type": "proposedAncillaryServices"
+                    }
+                  },
+                  "remainingQuantity": {
+                    "type": "PASSENGER",
+                    "remainingSlots": 1
+                  },
+                  "categories": ["BIKE"]
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 76.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 76.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "bedf07f7-1c54-462d-8386-1dd3f53ed804",
+              "segmentId": "b294ab4a-f1b2-466b-af17-793d3c75dc85",
+              "travelClass": "SECOND",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_SECOND",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "FENETRE",
+                  "HAUT",
+                  "COULOIR",
+                  "VISION_IMPAIRED",
+                  "BAS",
+                  "CLUB_QUATRE",
+                  "PRIORITY_SEAT",
+                  "DUO_COTE_A_COTE"
+                ],
+                "comfortSpaceIds": ["ESPACE_FAMILLE"],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:aa2c3e1c-5ec1-4df7-82a0-e215adda9623"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_SECOND",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "FENETRE",
+                    "HAUT",
+                    "COULOIR",
+                    "VISION_IMPAIRED",
+                    "BAS",
+                    "CLUB_QUATRE",
+                    "PRIORITY_SEAT",
+                    "DUO_COTE_A_COTE"
+                  ],
+                  "comfortSpaceIds": ["ESPACE_FAMILLE"],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 76.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["ff1570cf-aefa-4e57-9658-3f36b4a3df61"]
+            }
+          ],
+          "flexibility": "CONDITIONAL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "SECOND",
+          "expirationDate": "2025-07-23T11:21:10.257602605+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        },
+        {
+          "id": "a97acf0b-debd-48a1-894f-8611c2e869ba",
+          "price": {
+            "value": 82.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 6,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "64d31a6c-a731-451f-a608-6b0a61baf97e",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-8"
+                }
+              },
+              "productId": "94b3ede8-a9b0-4adc-8850-3f1c39c383e7",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "e30d31a3-99eb-4638-abe0-5dcdb63c671a",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_INDIVIDUAL",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "COMFORT",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 82.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 82.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "e30d31a3-99eb-4638-abe0-5dcdb63c671a",
+              "segmentId": "b294ab4a-f1b2-466b-af17-793d3c75dc85",
+              "travelClass": "FIRST",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "SEAT_MAP",
+                  "options": [],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "PaoSeatMapRequest",
+                      "paoCookie": "AWS-INT11",
+                      "numberOfPassengers": 1,
+                      "language": "fr",
+                      "paoTrainSegmentId": "_:aa2c3e1c-5ec1-4df7-82a0-e215adda9623",
+                      "paoRailTransportationId": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-8"
+                    }
+                  }
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_FIRST",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "CLUB_QUATRE",
+                  "VISION_IMPAIRED",
+                  "FENETRE",
+                  "DUO_VIS_A_VIS",
+                  "SOLO",
+                  "DUO_COTE_A_COTE",
+                  "BAS",
+                  "COULOIR",
+                  "PRIORITY_SEAT",
+                  "HAUT"
+                ],
+                "comfortSpaceIds": [],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:aa2c3e1c-5ec1-4df7-82a0-e215adda9623"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_FIRST",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "CLUB_QUATRE",
+                    "VISION_IMPAIRED",
+                    "FENETRE",
+                    "DUO_VIS_A_VIS",
+                    "SOLO",
+                    "DUO_COTE_A_COTE",
+                    "BAS",
+                    "COULOIR",
+                    "PRIORITY_SEAT",
+                    "HAUT"
+                  ],
+                  "comfortSpaceIds": [],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 82.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["64d31a6c-a731-451f-a608-6b0a61baf97e"]
+            }
+          ],
+          "flexibility": "CONDITIONAL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "FIRST",
+          "expirationDate": "2025-07-23T11:21:10.259416497+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        },
+        {
+          "id": "886667c8-c174-4450-8466-bb6791876a5a",
+          "price": {
+            "value": 169.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 141,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "7c2010d8-11b5-4401-ba39-78166a93c7cc",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-9"
+                }
+              },
+              "productId": "7bdac11f-8622-484f-817b-2f5be210488d",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "2ea758dd-422f-4161-abc1-1a6827448360",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_DEDICATED_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_INDIVIDUAL",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "LOUNGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "COMFORT",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FULL_FLEX",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 169.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 169.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "2ea758dd-422f-4161-abc1-1a6827448360",
+              "segmentId": "b294ab4a-f1b2-466b-af17-793d3c75dc85",
+              "travelClass": "FIRST",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "SEAT_MAP",
+                  "options": [],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "PaoSeatMapRequest",
+                      "paoCookie": "AWS-INT11",
+                      "numberOfPassengers": 1,
+                      "language": "fr",
+                      "paoTrainSegmentId": "_:aa2c3e1c-5ec1-4df7-82a0-e215adda9623",
+                      "paoRailTransportationId": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-9"
+                    }
+                  }
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_FIRST",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "CLUB_QUATRE",
+                  "VISION_IMPAIRED",
+                  "FENETRE",
+                  "DUO_VIS_A_VIS",
+                  "SOLO",
+                  "DUO_COTE_A_COTE",
+                  "BAS",
+                  "COULOIR",
+                  "PRIORITY_SEAT",
+                  "HAUT"
+                ],
+                "comfortSpaceIds": [],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:aa2c3e1c-5ec1-4df7-82a0-e215adda9623"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_FIRST",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "CLUB_QUATRE",
+                    "VISION_IMPAIRED",
+                    "FENETRE",
+                    "DUO_VIS_A_VIS",
+                    "SOLO",
+                    "DUO_COTE_A_COTE",
+                    "BAS",
+                    "COULOIR",
+                    "PRIORITY_SEAT",
+                    "HAUT"
+                  ],
+                  "comfortSpaceIds": [],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 169.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["7c2010d8-11b5-4401-ba39-78166a93c7cc"]
+            }
+          ],
+          "flexibility": "FULL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "FIRST",
+          "expirationDate": "2025-07-23T11:21:10.260145436+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        }
+      ],
+      "travelState": {
+        "travelStatus": "NONE",
+        "unsellableReasonInfo": {
+          "unsellableReason": "NONE",
+          "errorMessages": []
+        },
+        "realTimeInformations": null,
+        "unsellableReason": "NONE"
+      },
+      "travelType": "NORMAL",
+      "metaData": {
+        "PAO": {
+          "@type": "PaoTravel",
+          "cookie": "AWS-INT11",
+          "applicationVersion": "199",
+          "referenceDataVersion": "199_2_10514_0"
+        }
+      },
+      "carbonFootprintKg": 1.9
+    },
+    {
+      "recommendations": [],
+      "warnings": [],
+      "id": "86a5c9be-7bcb-4ee0-a178-5a3be61c2da0",
+      "originLocalityId": "30b25423-6027-47c4-b85b-81af7f0ad2a1",
+      "destinationLocalityId": "ad6d26ea-0973-4683-9f9c-6eb0f22fa23d",
+      "departureDateTime": "2025-08-12T18:00:00",
+      "arrivalDateTime": "2025-08-12T21:27:00",
+      "zonedDepartureDateTime": "2025-08-12T18:00:00+02:00",
+      "zonedArrivalDateTime": "2025-08-12T21:27:00+02:00",
+      "secondDuration": 12420,
+      "segments": [
+        {
+          "id": "ad42d19c-57ad-4165-97bb-7fed220f02cc",
+          "type": "TRAIN",
+          "mode": "TRANSIT",
+          "originLocalityId": "30b25423-6027-47c4-b85b-81af7f0ad2a1",
+          "destinationLocalityId": "ad6d26ea-0973-4683-9f9c-6eb0f22fa23d",
+          "departureDateTime": "2025-08-12T18:00:00",
+          "zonedDepartureDateTime": "2025-08-12T18:00:00+02:00",
+          "arrivalDateTime": "2025-08-12T21:27:00",
+          "zonedArrivalDateTime": "2025-08-12T21:27:00+02:00",
+          "secondDuration": 12420,
+          "vehicles": [
+            {
+              "identifier": "8731",
+              "onBoardServices": [
+                "VOITURE_BAR",
+                "HANDICAPE",
+                "NURSERIE",
+                "VELO_PAYANT",
+                "WIFI"
+              ],
+              "state": "QUOTABLE",
+              "proposalProvider": "VSH",
+              "metaData": {},
+              "boardingPositionAdvices": [],
+              "stops": [],
+              "conjuncturalMessageIds": [],
+              "onBoardServicesWithStatus": [
+                {
+                  "service": "NURSERY_SERVICE",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "FAMILY_AREA",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "ACCESSIBILITY",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "WIFI",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "PRIVATE_COMPARTMENT_SECOND",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "POWER_OUTLET",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "PAID_BIKE",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "BAR",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "ACCESSIBILITY_AND_HMR",
+                  "status": "UNKNOWN"
+                }
+              ]
+            }
+          ],
+          "stops": [
+            {
+              "localityId": "879c3a89-44d5-48dd-b4e2-628af7b8c35d"
+            },
+            {
+              "localityId": "32f0bb5f-b919-480c-b17d-abb361ada1cd"
+            },
+            {
+              "localityId": "3fa421ef-8db4-45a3-a622-2b126a53d8b9"
+            }
+          ],
+          "state": {
+            "realTimeInformations": null
+          },
+          "metaData": {
+            "SIDH": {
+              "@type": "SidhSegment",
+              "equipement": "TGF",
+              "company": null
+            },
+            "PAO": {
+              "@type": "PaoSegment",
+              "id": "_:b9592d10-bd14-4896-a716-4b140c25dca2"
+            }
+          },
+          "transporter": {
+            "type": "TRAIN",
+            "label": "TGV INOUI",
+            "distributor": "SNCF",
+            "company": "SNCF",
+            "code": "TGV_INOUI",
+            "mode": "HIGH_SPEED_TRAIN",
+            "operator": {
+              "label": null,
+              "code": "SNCF_RAILWAY",
+              "additionalCodes": [
+                {
+                  "type": "RICS",
+                  "value": "1187"
+                }
+              ]
+            },
+            "network": "UNKNOWN",
+            "commercialInformation": {
+              "line": null,
+              "brandLabel": null,
+              "brandGroup": null,
+              "fontColor": null,
+              "backgroundColor": null,
+              "direction": null
+            },
+            "metaData": {
+              "PAO": {
+                "@type": "PaoTransporter",
+                "transportationServiceOfferCode": "INOUI"
+              }
+            },
+            "operatingCarrier": "SNCF_RAILWAY"
+          },
+          "wayOut": null,
+          "shape": [],
+          "transferIn": null,
+          "transferOut": null,
+          "directions": [],
+          "features": [],
+          "operatingConditions": [],
+          "vehiculeType": "TRAIN",
+          "onBoardServices": [
+            "VOITURE_BAR",
+            "HANDICAPE",
+            "NURSERIE",
+            "VELO_PAYANT",
+            "WIFI"
+          ],
+          "identifier": "8731"
+        }
+      ],
+      "proposals": [
+        {
+          "id": "84dd6196-59d6-4adf-917d-026ed607c0b7",
+          "price": {
+            "value": 76.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 18,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "2930b14f-4d59-4356-8d56-e10e68d90535",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-10"
+                }
+              },
+              "productId": "3304cf33-26ff-4a1a-96d8-a45a39190c9f",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "57a53fd1-0371-423b-a6e2-09d86c467e5b",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_SHARED",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "ADDITIONAL",
+                  "code": "VELO_PAYANT",
+                  "price": {
+                    "value": 10.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [
+                    {
+                      "type": "PASSENGER",
+                      "remainingSlots": 1
+                    },
+                    {
+                      "type": "VEHICLE",
+                      "remainingSlots": 2
+                    }
+                  ],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "MetaDataCodeAndType",
+                      "code": "/catalog/products/SVEP_VOYAGES_S3",
+                      "type": "proposedAncillaryServices"
+                    }
+                  },
+                  "remainingQuantity": {
+                    "type": "PASSENGER",
+                    "remainingSlots": 1
+                  },
+                  "categories": ["BIKE"]
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 76.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 76.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "57a53fd1-0371-423b-a6e2-09d86c467e5b",
+              "segmentId": "ad42d19c-57ad-4165-97bb-7fed220f02cc",
+              "travelClass": "SECOND",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_SECOND",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "FENETRE",
+                  "HAUT",
+                  "COULOIR",
+                  "VISION_IMPAIRED",
+                  "BAS",
+                  "CLUB_QUATRE",
+                  "PRIORITY_SEAT",
+                  "DUO_COTE_A_COTE"
+                ],
+                "comfortSpaceIds": ["ESPACE_FAMILLE"],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:b9592d10-bd14-4896-a716-4b140c25dca2"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_SECOND",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "FENETRE",
+                    "HAUT",
+                    "COULOIR",
+                    "VISION_IMPAIRED",
+                    "BAS",
+                    "CLUB_QUATRE",
+                    "PRIORITY_SEAT",
+                    "DUO_COTE_A_COTE"
+                  ],
+                  "comfortSpaceIds": ["ESPACE_FAMILLE"],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 76.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["2930b14f-4d59-4356-8d56-e10e68d90535"]
+            }
+          ],
+          "flexibility": "CONDITIONAL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "SECOND",
+          "expirationDate": "2025-07-23T11:21:10.262109189+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        },
+        {
+          "id": "ef68bcc9-6116-4d44-9e83-58d32bead7dd",
+          "price": {
+            "value": 82.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 6,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "91177fee-8c05-46e1-a110-e2a1edd9c149",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-11"
+                }
+              },
+              "productId": "94b3ede8-a9b0-4adc-8850-3f1c39c383e7",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "99d623c3-4f64-4c87-b2d8-90ece84245de",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_INDIVIDUAL",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "COMFORT",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 82.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 82.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "99d623c3-4f64-4c87-b2d8-90ece84245de",
+              "segmentId": "ad42d19c-57ad-4165-97bb-7fed220f02cc",
+              "travelClass": "FIRST",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "SEAT_MAP",
+                  "options": [],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "PaoSeatMapRequest",
+                      "paoCookie": "AWS-INT11",
+                      "numberOfPassengers": 1,
+                      "language": "fr",
+                      "paoTrainSegmentId": "_:b9592d10-bd14-4896-a716-4b140c25dca2",
+                      "paoRailTransportationId": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-11"
+                    }
+                  }
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_FIRST",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "CLUB_QUATRE",
+                  "VISION_IMPAIRED",
+                  "FENETRE",
+                  "DUO_VIS_A_VIS",
+                  "SOLO",
+                  "DUO_COTE_A_COTE",
+                  "BAS",
+                  "COULOIR",
+                  "PRIORITY_SEAT",
+                  "HAUT"
+                ],
+                "comfortSpaceIds": [],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:b9592d10-bd14-4896-a716-4b140c25dca2"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_FIRST",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "CLUB_QUATRE",
+                    "VISION_IMPAIRED",
+                    "FENETRE",
+                    "DUO_VIS_A_VIS",
+                    "SOLO",
+                    "DUO_COTE_A_COTE",
+                    "BAS",
+                    "COULOIR",
+                    "PRIORITY_SEAT",
+                    "HAUT"
+                  ],
+                  "comfortSpaceIds": [],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 82.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["91177fee-8c05-46e1-a110-e2a1edd9c149"]
+            }
+          ],
+          "flexibility": "CONDITIONAL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "FIRST",
+          "expirationDate": "2025-07-23T11:21:10.264106236+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        },
+        {
+          "id": "0e88fb37-6649-4247-b2eb-cea581fcdd78",
+          "price": {
+            "value": 169.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 142,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "19134f16-2550-4488-8425-db2b29d0b312",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-12"
+                }
+              },
+              "productId": "7bdac11f-8622-484f-817b-2f5be210488d",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "573d38ce-e000-4d4c-b225-3c28fd8518c8",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_DEDICATED_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_INDIVIDUAL",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "LOUNGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "COMFORT",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FULL_FLEX",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 169.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 169.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "573d38ce-e000-4d4c-b225-3c28fd8518c8",
+              "segmentId": "ad42d19c-57ad-4165-97bb-7fed220f02cc",
+              "travelClass": "FIRST",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "SEAT_MAP",
+                  "options": [],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "PaoSeatMapRequest",
+                      "paoCookie": "AWS-INT11",
+                      "numberOfPassengers": 1,
+                      "language": "fr",
+                      "paoTrainSegmentId": "_:b9592d10-bd14-4896-a716-4b140c25dca2",
+                      "paoRailTransportationId": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-12"
+                    }
+                  }
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_FIRST",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "CLUB_QUATRE",
+                  "VISION_IMPAIRED",
+                  "FENETRE",
+                  "DUO_VIS_A_VIS",
+                  "SOLO",
+                  "DUO_COTE_A_COTE",
+                  "BAS",
+                  "COULOIR",
+                  "PRIORITY_SEAT",
+                  "HAUT"
+                ],
+                "comfortSpaceIds": [],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:b9592d10-bd14-4896-a716-4b140c25dca2"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_FIRST",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "CLUB_QUATRE",
+                    "VISION_IMPAIRED",
+                    "FENETRE",
+                    "DUO_VIS_A_VIS",
+                    "SOLO",
+                    "DUO_COTE_A_COTE",
+                    "BAS",
+                    "COULOIR",
+                    "PRIORITY_SEAT",
+                    "HAUT"
+                  ],
+                  "comfortSpaceIds": [],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 169.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["19134f16-2550-4488-8425-db2b29d0b312"]
+            }
+          ],
+          "flexibility": "FULL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "FIRST",
+          "expirationDate": "2025-07-23T11:21:10.264849238+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        }
+      ],
+      "travelState": {
+        "travelStatus": "NONE",
+        "unsellableReasonInfo": {
+          "unsellableReason": "NONE",
+          "errorMessages": []
+        },
+        "realTimeInformations": null,
+        "unsellableReason": "NONE"
+      },
+      "travelType": "NORMAL",
+      "metaData": {
+        "PAO": {
+          "@type": "PaoTravel",
+          "cookie": "AWS-INT11",
+          "applicationVersion": "199",
+          "referenceDataVersion": "199_2_10514_0"
+        }
+      },
+      "carbonFootprintKg": 1.9
+    },
+    {
+      "recommendations": [],
+      "warnings": [],
+      "id": "292b22af-74d6-4933-a865-a2441084a8ff",
+      "originLocalityId": "30b25423-6027-47c4-b85b-81af7f0ad2a1",
+      "destinationLocalityId": "ad6d26ea-0973-4683-9f9c-6eb0f22fa23d",
+      "departureDateTime": "2025-08-12T18:59:00",
+      "arrivalDateTime": "2025-08-12T22:45:00",
+      "zonedDepartureDateTime": "2025-08-12T18:59:00+02:00",
+      "zonedArrivalDateTime": "2025-08-12T22:45:00+02:00",
+      "secondDuration": 13560,
+      "segments": [
+        {
+          "id": "a2f3bf85-9e16-46c5-b76a-9189d274c8ab",
+          "type": "TRAIN",
+          "mode": "TRANSIT",
+          "originLocalityId": "30b25423-6027-47c4-b85b-81af7f0ad2a1",
+          "destinationLocalityId": "ad6d26ea-0973-4683-9f9c-6eb0f22fa23d",
+          "departureDateTime": "2025-08-12T18:59:00",
+          "zonedDepartureDateTime": "2025-08-12T18:59:00+02:00",
+          "arrivalDateTime": "2025-08-12T22:45:00",
+          "zonedArrivalDateTime": "2025-08-12T22:45:00+02:00",
+          "secondDuration": 13560,
+          "vehicles": [
+            {
+              "identifier": "8739",
+              "onBoardServices": [
+                "VOITURE_BAR",
+                "HANDICAPE",
+                "NURSERIE",
+                "VELO_PAYANT",
+                "WIFI"
+              ],
+              "state": "QUOTABLE",
+              "proposalProvider": "VSH",
+              "metaData": {},
+              "boardingPositionAdvices": [],
+              "stops": [],
+              "conjuncturalMessageIds": [],
+              "onBoardServicesWithStatus": [
+                {
+                  "service": "NURSERY_SERVICE",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "FAMILY_AREA",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "ACCESSIBILITY",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "WIFI",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "PRIVATE_COMPARTMENT_SECOND",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "POWER_OUTLET",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "PAID_BIKE",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "BAR",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "ACCESSIBILITY_AND_HMR",
+                  "status": "UNKNOWN"
+                }
+              ]
+            }
+          ],
+          "stops": [
+            {
+              "localityId": "879c3a89-44d5-48dd-b4e2-628af7b8c35d"
+            },
+            {
+              "localityId": "ddc064e7-453b-45a1-8c2b-7c7bca603a2a"
+            },
+            {
+              "localityId": "32f0bb5f-b919-480c-b17d-abb361ada1cd"
+            },
+            {
+              "localityId": "bf0a72d1-af60-436a-a4b1-680223bda81f"
+            },
+            {
+              "localityId": "3fa421ef-8db4-45a3-a622-2b126a53d8b9"
+            },
+            {
+              "localityId": "364c4567-5688-4e27-8cb0-e8cc77986759"
+            },
+            {
+              "localityId": "30ffabb5-f5ae-4b22-bcd7-995becfaa084"
+            }
+          ],
+          "state": {
+            "realTimeInformations": null
+          },
+          "metaData": {
+            "SIDH": {
+              "@type": "SidhSegment",
+              "equipement": "TGF",
+              "company": null
+            },
+            "PAO": {
+              "@type": "PaoSegment",
+              "id": "_:169f1621-5a13-40e4-9876-5a40117da5ec"
+            }
+          },
+          "transporter": {
+            "type": "TRAIN",
+            "label": "TGV INOUI",
+            "distributor": "SNCF",
+            "company": "SNCF",
+            "code": "TGV_INOUI",
+            "mode": "HIGH_SPEED_TRAIN",
+            "operator": {
+              "label": null,
+              "code": "SNCF_RAILWAY",
+              "additionalCodes": [
+                {
+                  "type": "RICS",
+                  "value": "1187"
+                }
+              ]
+            },
+            "network": "UNKNOWN",
+            "commercialInformation": {
+              "line": null,
+              "brandLabel": null,
+              "brandGroup": null,
+              "fontColor": null,
+              "backgroundColor": null,
+              "direction": null
+            },
+            "metaData": {
+              "PAO": {
+                "@type": "PaoTransporter",
+                "transportationServiceOfferCode": "INOUI"
+              }
+            },
+            "operatingCarrier": "SNCF_RAILWAY"
+          },
+          "wayOut": null,
+          "shape": [],
+          "transferIn": null,
+          "transferOut": null,
+          "directions": [],
+          "features": [],
+          "operatingConditions": [],
+          "vehiculeType": "TRAIN",
+          "onBoardServices": [
+            "VOITURE_BAR",
+            "HANDICAPE",
+            "NURSERIE",
+            "VELO_PAYANT",
+            "WIFI"
+          ],
+          "identifier": "8739"
+        }
+      ],
+      "proposals": [
+        {
+          "id": "7dd744cd-fd99-40e7-bfb5-fd0198e26fa1",
+          "price": {
+            "value": 76.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 18,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "9915ad9d-b592-45df-93d2-a077ddc34323",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-13"
+                }
+              },
+              "productId": "3304cf33-26ff-4a1a-96d8-a45a39190c9f",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "0fc9231a-b9eb-423b-9ca8-16e2bdb9b108",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_SHARED",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "ADDITIONAL",
+                  "code": "VELO_PAYANT",
+                  "price": {
+                    "value": 10.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [
+                    {
+                      "type": "PASSENGER",
+                      "remainingSlots": 1
+                    },
+                    {
+                      "type": "VEHICLE",
+                      "remainingSlots": 2
+                    }
+                  ],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "MetaDataCodeAndType",
+                      "code": "/catalog/products/SVEP_VOYAGES_S3",
+                      "type": "proposedAncillaryServices"
+                    }
+                  },
+                  "remainingQuantity": {
+                    "type": "PASSENGER",
+                    "remainingSlots": 1
+                  },
+                  "categories": ["BIKE"]
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 76.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 76.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "0fc9231a-b9eb-423b-9ca8-16e2bdb9b108",
+              "segmentId": "a2f3bf85-9e16-46c5-b76a-9189d274c8ab",
+              "travelClass": "SECOND",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_SECOND",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "FENETRE",
+                  "HAUT",
+                  "COULOIR",
+                  "VISION_IMPAIRED",
+                  "BAS",
+                  "CLUB_QUATRE",
+                  "PRIORITY_SEAT",
+                  "DUO_COTE_A_COTE"
+                ],
+                "comfortSpaceIds": ["ESPACE_FAMILLE"],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:169f1621-5a13-40e4-9876-5a40117da5ec"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_SECOND",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "FENETRE",
+                    "HAUT",
+                    "COULOIR",
+                    "VISION_IMPAIRED",
+                    "BAS",
+                    "CLUB_QUATRE",
+                    "PRIORITY_SEAT",
+                    "DUO_COTE_A_COTE"
+                  ],
+                  "comfortSpaceIds": ["ESPACE_FAMILLE"],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 76.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["9915ad9d-b592-45df-93d2-a077ddc34323"]
+            }
+          ],
+          "flexibility": "CONDITIONAL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "SECOND",
+          "expirationDate": "2025-07-23T11:21:10.266764221+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        },
+        {
+          "id": "446f00e9-832d-40b1-9fe4-82fc6c1e6b03",
+          "price": {
+            "value": 82.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 6,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "ced13336-f286-400d-84b0-fb82d2590e6d",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-14"
+                }
+              },
+              "productId": "94b3ede8-a9b0-4adc-8850-3f1c39c383e7",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "32c7698f-e4d8-434c-8619-f3bd144bdc30",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_INDIVIDUAL",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "COMFORT",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 82.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 82.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "32c7698f-e4d8-434c-8619-f3bd144bdc30",
+              "segmentId": "a2f3bf85-9e16-46c5-b76a-9189d274c8ab",
+              "travelClass": "FIRST",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "SEAT_MAP",
+                  "options": [],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "PaoSeatMapRequest",
+                      "paoCookie": "AWS-INT11",
+                      "numberOfPassengers": 1,
+                      "language": "fr",
+                      "paoTrainSegmentId": "_:169f1621-5a13-40e4-9876-5a40117da5ec",
+                      "paoRailTransportationId": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-14"
+                    }
+                  }
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_FIRST",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "CLUB_QUATRE",
+                  "VISION_IMPAIRED",
+                  "FENETRE",
+                  "DUO_VIS_A_VIS",
+                  "SOLO",
+                  "DUO_COTE_A_COTE",
+                  "BAS",
+                  "COULOIR",
+                  "PRIORITY_SEAT",
+                  "HAUT"
+                ],
+                "comfortSpaceIds": [],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:169f1621-5a13-40e4-9876-5a40117da5ec"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_FIRST",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "CLUB_QUATRE",
+                    "VISION_IMPAIRED",
+                    "FENETRE",
+                    "DUO_VIS_A_VIS",
+                    "SOLO",
+                    "DUO_COTE_A_COTE",
+                    "BAS",
+                    "COULOIR",
+                    "PRIORITY_SEAT",
+                    "HAUT"
+                  ],
+                  "comfortSpaceIds": [],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 82.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["ced13336-f286-400d-84b0-fb82d2590e6d"]
+            }
+          ],
+          "flexibility": "CONDITIONAL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "FIRST",
+          "expirationDate": "2025-07-23T11:21:10.268667856+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        },
+        {
+          "id": "234fd92e-71c7-4e7a-9c8b-043634f6bdd9",
+          "price": {
+            "value": 169.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 142,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "cea3b3d2-fec1-4712-882c-8649c84188c3",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-15"
+                }
+              },
+              "productId": "7bdac11f-8622-484f-817b-2f5be210488d",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "5158f632-c5b2-4ec2-9c0d-6886b8d7d130",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_DEDICATED_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_INDIVIDUAL",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "LOUNGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "COMFORT",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FULL_FLEX",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 169.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 169.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "5158f632-c5b2-4ec2-9c0d-6886b8d7d130",
+              "segmentId": "a2f3bf85-9e16-46c5-b76a-9189d274c8ab",
+              "travelClass": "FIRST",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "SEAT_MAP",
+                  "options": [],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "PaoSeatMapRequest",
+                      "paoCookie": "AWS-INT11",
+                      "numberOfPassengers": 1,
+                      "language": "fr",
+                      "paoTrainSegmentId": "_:169f1621-5a13-40e4-9876-5a40117da5ec",
+                      "paoRailTransportationId": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-15"
+                    }
+                  }
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_FIRST",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "CLUB_QUATRE",
+                  "VISION_IMPAIRED",
+                  "FENETRE",
+                  "DUO_VIS_A_VIS",
+                  "SOLO",
+                  "DUO_COTE_A_COTE",
+                  "BAS",
+                  "COULOIR",
+                  "PRIORITY_SEAT",
+                  "HAUT"
+                ],
+                "comfortSpaceIds": [],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:169f1621-5a13-40e4-9876-5a40117da5ec"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_FIRST",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "CLUB_QUATRE",
+                    "VISION_IMPAIRED",
+                    "FENETRE",
+                    "DUO_VIS_A_VIS",
+                    "SOLO",
+                    "DUO_COTE_A_COTE",
+                    "BAS",
+                    "COULOIR",
+                    "PRIORITY_SEAT",
+                    "HAUT"
+                  ],
+                  "comfortSpaceIds": [],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 169.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["cea3b3d2-fec1-4712-882c-8649c84188c3"]
+            }
+          ],
+          "flexibility": "FULL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "FIRST",
+          "expirationDate": "2025-07-23T11:21:10.269386664+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        }
+      ],
+      "travelState": {
+        "travelStatus": "NONE",
+        "unsellableReasonInfo": {
+          "unsellableReason": "NONE",
+          "errorMessages": []
+        },
+        "realTimeInformations": null,
+        "unsellableReason": "NONE"
+      },
+      "travelType": "NORMAL",
+      "metaData": {
+        "PAO": {
+          "@type": "PaoTravel",
+          "cookie": "AWS-INT11",
+          "applicationVersion": "199",
+          "referenceDataVersion": "199_2_10514_0"
+        }
+      },
+      "carbonFootprintKg": 1.9
+    },
+    {
+      "recommendations": [],
+      "warnings": [],
+      "id": "9241792d-90bf-4940-a989-3d333577b1c2",
+      "originLocalityId": "30b25423-6027-47c4-b85b-81af7f0ad2a1",
+      "destinationLocalityId": "ad6d26ea-0973-4683-9f9c-6eb0f22fa23d",
+      "departureDateTime": "2025-08-12T19:57:00",
+      "arrivalDateTime": "2025-08-12T23:44:00",
+      "zonedDepartureDateTime": "2025-08-12T19:57:00+02:00",
+      "zonedArrivalDateTime": "2025-08-12T23:44:00+02:00",
+      "secondDuration": 13620,
+      "segments": [
+        {
+          "id": "8e2e10de-263f-4296-bb39-f6a30cc0d64c",
+          "type": "TRAIN",
+          "mode": "TRANSIT",
+          "originLocalityId": "30b25423-6027-47c4-b85b-81af7f0ad2a1",
+          "destinationLocalityId": "ad6d26ea-0973-4683-9f9c-6eb0f22fa23d",
+          "departureDateTime": "2025-08-12T19:57:00",
+          "zonedDepartureDateTime": "2025-08-12T19:57:00+02:00",
+          "arrivalDateTime": "2025-08-12T23:44:00",
+          "zonedArrivalDateTime": "2025-08-12T23:44:00+02:00",
+          "secondDuration": 13620,
+          "vehicles": [
+            {
+              "identifier": "8751",
+              "onBoardServices": [
+                "VOITURE_BAR",
+                "HANDICAPE",
+                "NURSERIE",
+                "VELO_PAYANT",
+                "WIFI"
+              ],
+              "state": "QUOTABLE",
+              "proposalProvider": "VSH",
+              "metaData": {},
+              "boardingPositionAdvices": [],
+              "stops": [],
+              "conjuncturalMessageIds": [],
+              "onBoardServicesWithStatus": [
+                {
+                  "service": "NURSERY_SERVICE",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "FAMILY_AREA",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "ACCESSIBILITY",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "WIFI",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "PRIVATE_COMPARTMENT_SECOND",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "POWER_OUTLET",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "PAID_BIKE",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "BAR",
+                  "status": "UNKNOWN"
+                },
+                {
+                  "service": "ACCESSIBILITY_AND_HMR",
+                  "status": "UNKNOWN"
+                }
+              ]
+            }
+          ],
+          "stops": [
+            {
+              "localityId": "879c3a89-44d5-48dd-b4e2-628af7b8c35d"
+            },
+            {
+              "localityId": "ddc064e7-453b-45a1-8c2b-7c7bca603a2a"
+            },
+            {
+              "localityId": "32f0bb5f-b919-480c-b17d-abb361ada1cd"
+            },
+            {
+              "localityId": "bf0a72d1-af60-436a-a4b1-680223bda81f"
+            },
+            {
+              "localityId": "3fa421ef-8db4-45a3-a622-2b126a53d8b9"
+            },
+            {
+              "localityId": "364c4567-5688-4e27-8cb0-e8cc77986759"
+            },
+            {
+              "localityId": "30ffabb5-f5ae-4b22-bcd7-995becfaa084"
+            }
+          ],
+          "state": {
+            "realTimeInformations": null
+          },
+          "metaData": {
+            "SIDH": {
+              "@type": "SidhSegment",
+              "equipement": "TGF",
+              "company": null
+            },
+            "PAO": {
+              "@type": "PaoSegment",
+              "id": "_:7274a73b-99bc-48f3-bad4-f6d5cdc364b5"
+            }
+          },
+          "transporter": {
+            "type": "TRAIN",
+            "label": "TGV INOUI",
+            "distributor": "SNCF",
+            "company": "SNCF",
+            "code": "TGV_INOUI",
+            "mode": "HIGH_SPEED_TRAIN",
+            "operator": {
+              "label": null,
+              "code": "SNCF_RAILWAY",
+              "additionalCodes": [
+                {
+                  "type": "RICS",
+                  "value": "1187"
+                }
+              ]
+            },
+            "network": "UNKNOWN",
+            "commercialInformation": {
+              "line": null,
+              "brandLabel": null,
+              "brandGroup": null,
+              "fontColor": null,
+              "backgroundColor": null,
+              "direction": null
+            },
+            "metaData": {
+              "PAO": {
+                "@type": "PaoTransporter",
+                "transportationServiceOfferCode": "INOUI"
+              }
+            },
+            "operatingCarrier": "SNCF_RAILWAY"
+          },
+          "wayOut": null,
+          "shape": [],
+          "transferIn": null,
+          "transferOut": null,
+          "directions": [],
+          "features": [],
+          "operatingConditions": [],
+          "vehiculeType": "TRAIN",
+          "onBoardServices": [
+            "VOITURE_BAR",
+            "HANDICAPE",
+            "NURSERIE",
+            "VELO_PAYANT",
+            "WIFI"
+          ],
+          "identifier": "8751"
+        }
+      ],
+      "proposals": [
+        {
+          "id": "423466e9-6c35-4208-a40d-ceb3cb93ab06",
+          "price": {
+            "value": 76.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 17,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "6d343dfd-2ffa-4e78-98ed-1955d2bdcaf3",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-16"
+                }
+              },
+              "productId": "3304cf33-26ff-4a1a-96d8-a45a39190c9f",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "a2c27ee7-b8d1-4e66-a33a-5316cb0fd0ae",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_SHARED",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "ADDITIONAL",
+                  "code": "VELO_PAYANT",
+                  "price": {
+                    "value": 10.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [
+                    {
+                      "type": "PASSENGER",
+                      "remainingSlots": 1
+                    },
+                    {
+                      "type": "VEHICLE",
+                      "remainingSlots": 2
+                    }
+                  ],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "MetaDataCodeAndType",
+                      "code": "/catalog/products/SVEP_VOYAGES_S3",
+                      "type": "proposedAncillaryServices"
+                    }
+                  },
+                  "remainingQuantity": {
+                    "type": "PASSENGER",
+                    "remainingSlots": 1
+                  },
+                  "categories": ["BIKE"]
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 76.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 76.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "a2c27ee7-b8d1-4e66-a33a-5316cb0fd0ae",
+              "segmentId": "8e2e10de-263f-4296-bb39-f6a30cc0d64c",
+              "travelClass": "SECOND",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_SECOND",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "FENETRE",
+                  "HAUT",
+                  "COULOIR",
+                  "VISION_IMPAIRED",
+                  "BAS",
+                  "CLUB_QUATRE",
+                  "PRIORITY_SEAT",
+                  "DUO_COTE_A_COTE"
+                ],
+                "comfortSpaceIds": ["ESPACE_FAMILLE"],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:7274a73b-99bc-48f3-bad4-f6d5cdc364b5"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_SECOND",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "FENETRE",
+                    "HAUT",
+                    "COULOIR",
+                    "VISION_IMPAIRED",
+                    "BAS",
+                    "CLUB_QUATRE",
+                    "PRIORITY_SEAT",
+                    "DUO_COTE_A_COTE"
+                  ],
+                  "comfortSpaceIds": ["ESPACE_FAMILLE"],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 76.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["6d343dfd-2ffa-4e78-98ed-1955d2bdcaf3"]
+            }
+          ],
+          "flexibility": "CONDITIONAL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "SECOND",
+          "expirationDate": "2025-07-23T11:21:10.271321309+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        },
+        {
+          "id": "54edd7b3-276c-4e4a-b263-5c04d31eef9a",
+          "price": {
+            "value": 82.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 6,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "3cce4ff2-0e7d-4b6c-ae99-163efe0b1b8f",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-17"
+                }
+              },
+              "productId": "94b3ede8-a9b0-4adc-8850-3f1c39c383e7",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "3c240e9d-8a46-481a-b330-621a63c02654",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_INDIVIDUAL",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "COMFORT",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 82.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 82.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "3c240e9d-8a46-481a-b330-621a63c02654",
+              "segmentId": "8e2e10de-263f-4296-bb39-f6a30cc0d64c",
+              "travelClass": "FIRST",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "SEAT_MAP",
+                  "options": [],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "PaoSeatMapRequest",
+                      "paoCookie": "AWS-INT11",
+                      "numberOfPassengers": 1,
+                      "language": "fr",
+                      "paoTrainSegmentId": "_:7274a73b-99bc-48f3-bad4-f6d5cdc364b5",
+                      "paoRailTransportationId": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-17"
+                    }
+                  }
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_FIRST",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "CLUB_QUATRE",
+                  "VISION_IMPAIRED",
+                  "FENETRE",
+                  "DUO_VIS_A_VIS",
+                  "SOLO",
+                  "DUO_COTE_A_COTE",
+                  "BAS",
+                  "COULOIR",
+                  "PRIORITY_SEAT",
+                  "HAUT"
+                ],
+                "comfortSpaceIds": [],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:7274a73b-99bc-48f3-bad4-f6d5cdc364b5"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_FIRST",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "CLUB_QUATRE",
+                    "VISION_IMPAIRED",
+                    "FENETRE",
+                    "DUO_VIS_A_VIS",
+                    "SOLO",
+                    "DUO_COTE_A_COTE",
+                    "BAS",
+                    "COULOIR",
+                    "PRIORITY_SEAT",
+                    "HAUT"
+                  ],
+                  "comfortSpaceIds": [],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 82.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["3cce4ff2-0e7d-4b6c-ae99-163efe0b1b8f"]
+            }
+          ],
+          "flexibility": "CONDITIONAL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "FIRST",
+          "expirationDate": "2025-07-23T11:21:10.273275245+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        },
+        {
+          "id": "4e49a260-ca04-4d0f-b2e8-7dd6871084cd",
+          "price": {
+            "value": 169.0,
+            "currency": "EUR"
+          },
+          "remainingSeats": 142,
+          "type": "NORMAL",
+          "deeplink": null,
+          "linkedRoundtripOfferId": null,
+          "offers": [
+            {
+              "id": "52888390-b0c2-4247-a1ad-9f1515514b7f",
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoOffer",
+                  "id": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-18"
+                }
+              },
+              "productId": "7bdac11f-8622-484f-817b-2f5be210488d",
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "segmentOfferId": "cb2299f7-6d87-4b68-bb6d-10bed824cf7a",
+              "offerServices": [
+                {
+                  "type": "INCLUDED",
+                  "code": "PRESS_DEDICATED_INOUI",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "POWER_OUTLET_INDIVIDUAL",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "LOUNGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FREE_BAGGAGE",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": ["BAGGAGE"]
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "COMFORT",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                },
+                {
+                  "type": "INCLUDED",
+                  "code": "FULL_FLEX",
+                  "price": {
+                    "value": 0.0,
+                    "currency": "EUR"
+                  },
+                  "remainingQuantities": [],
+                  "metaData": {},
+                  "remainingQuantity": {
+                    "type": "UNKNOWN",
+                    "remainingSlots": 0
+                  },
+                  "categories": []
+                }
+              ],
+              "offerManager": "PAO",
+              "offerManagerGlobalPrice": {
+                "value": 169.0,
+                "currency": "EUR"
+              },
+              "optionalPrice": {
+                "value": 169.0,
+                "currency": "EUR"
+              },
+              "promoCodeApplied": false,
+              "advantageInformationIds": []
+            }
+          ],
+          "segmentOffers": [
+            {
+              "id": "cb2299f7-6d87-4b68-bb6d-10bed824cf7a",
+              "segmentId": "8e2e10de-263f-4296-bb39-f6a30cc0d64c",
+              "travelClass": "FIRST",
+              "availablePlacementModes": [
+                {
+                  "mode": "CLOSE_TO",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "ASSIGNMENT",
+                  "options": [],
+                  "metaData": {}
+                },
+                {
+                  "mode": "SEAT_MAP",
+                  "options": [],
+                  "metaData": {
+                    "PAO": {
+                      "@type": "PaoSeatMapRequest",
+                      "paoCookie": "AWS-INT11",
+                      "numberOfPassengers": 1,
+                      "language": "fr",
+                      "paoTrainSegmentId": "_:7274a73b-99bc-48f3-bad4-f6d5cdc364b5",
+                      "paoRailTransportationId": "/sales/railTransportationProposals/0f93b11a-8e95-4110-ae46-5e67aecf570d-18"
+                    }
+                  }
+                }
+              ],
+              "availablePhysicalSpace": {
+                "type": "SEAT_FIRST",
+                "placementOptions": [],
+                "placementChoiceIds": [
+                  "CLUB_QUATRE",
+                  "VISION_IMPAIRED",
+                  "FENETRE",
+                  "DUO_VIS_A_VIS",
+                  "SOLO",
+                  "DUO_COTE_A_COTE",
+                  "BAS",
+                  "COULOIR",
+                  "PRIORITY_SEAT",
+                  "HAUT"
+                ],
+                "comfortSpaceIds": [],
+                "complete": true,
+                "comfortSpaceMandatory": false
+              },
+              "metaData": {
+                "PAO": {
+                  "@type": "PaoSegmentOffer",
+                  "paoSegmentId": "_:7274a73b-99bc-48f3-bad4-f6d5cdc364b5"
+                }
+              },
+              "availablePhysicalSpaces": [
+                {
+                  "type": "SEAT_FIRST",
+                  "placementOptions": [],
+                  "placementChoiceIds": [
+                    "CLUB_QUATRE",
+                    "VISION_IMPAIRED",
+                    "FENETRE",
+                    "DUO_VIS_A_VIS",
+                    "SOLO",
+                    "DUO_COTE_A_COTE",
+                    "BAS",
+                    "COULOIR",
+                    "PRIORITY_SEAT",
+                    "HAUT"
+                  ],
+                  "comfortSpaceIds": [],
+                  "complete": true,
+                  "comfortSpaceMandatory": false
+                }
+              ]
+            }
+          ],
+          "optionalPassengerPrices": [
+            {
+              "passengerId": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+              "price": {
+                "value": 169.0,
+                "currency": "EUR"
+              },
+              "withoutAdvantagePrice": null,
+              "offersIds": ["52888390-b0c2-4247-a1ad-9f1515514b7f"]
+            }
+          ],
+          "flexibility": "FULL_FLEXIBILITY",
+          "mainFlexibilityAndTypeRepresentative": true,
+          "travelClass": "FIRST",
+          "expirationDate": "2025-07-23T11:21:10.274117048+02:00",
+          "withoutAdvantageOptionalPrice": null,
+          "exchangeAndRefund": [],
+          "serviceFee": null,
+          "cardsToPush": [],
+          "additionalInformation": ["OUTWARD"],
+          "recommendations": []
+        }
+      ],
+      "travelState": {
+        "travelStatus": "LAST_OF_DAY",
+        "unsellableReasonInfo": {
+          "unsellableReason": "NONE",
+          "errorMessages": []
+        },
+        "realTimeInformations": null,
+        "unsellableReason": "NONE"
+      },
+      "travelType": "NORMAL",
+      "metaData": {
+        "PAO": {
+          "@type": "PaoTravel",
+          "cookie": "AWS-INT11",
+          "applicationVersion": "199",
+          "referenceDataVersion": "199_2_10514_0"
+        }
+      },
+      "carbonFootprintKg": 1.9
+    }
+  ],
+  "passengers": [
+    {
+      "id": "66f86f75-fc26-4d04-b7be-93e19e2ecd15",
+      "type": "HUMAN",
+      "passengerCategory": "NORMAL",
+      "rank": 0,
+      "customerId": null,
+      "externalId": "345",
+      "typology": "ADULT",
+      "firstname": null,
+      "lastname": "Martin",
+      "dateOfBirth": null,
+      "age": 26,
+      "promoCode": null,
+      "passengerCards": [],
+      "bicycle": null,
+      "metaData": {
+        "PAO": {
+          "@type": "PaoPassenger",
+          "ageGroup": "59",
+          "distributionChannelRank": 1
+        }
+      },
+      "disabilityGuideLevel": "NONE",
+      "disabilityCategory": "NONE",
+      "wheelchair": false
+    }
+  ],
+  "localities": [
+    {
+      "id": "364c4567-5688-4e27-8cb0-e8cc77986759",
+      "code": "RESARAIL_STA_8747631",
+      "name": "QUIMPERLE",
+      "services": [],
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "FRECO"
+        },
+        "CMI": {
+          "@type": "CmiLocalityMetaData",
+          "uicCode": "87476317",
+          "ptCode": null
+        }
+      },
+      "geoLocalization": {
+        "latitude": 47.869373,
+        "longitude": -3.55269
+      },
+      "cityId": null,
+      "adress": null
+    },
+    {
+      "id": "bf0a72d1-af60-436a-a4b1-680223bda81f",
+      "code": "RESARAIL_STA_8747620",
+      "name": "AURAY",
+      "services": ["AccesPlus"],
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "FRXUY"
+        },
+        "CMI": {
+          "@type": "CmiLocalityMetaData",
+          "uicCode": "87476200",
+          "ptCode": null
+        }
+      },
+      "geoLocalization": {
+        "latitude": 47.680088,
+        "longitude": -2.999359
+      },
+      "cityId": null,
+      "adress": null
+    },
+    {
+      "id": "32f0bb5f-b919-480c-b17d-abb361ada1cd",
+      "code": "RESARAIL_STA_8747660",
+      "name": "VANNES",
+      "services": ["AccesPlus"],
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "FRVNE"
+        },
+        "CMI": {
+          "@type": "CmiLocalityMetaData",
+          "uicCode": "87476606",
+          "ptCode": null
+        }
+      },
+      "geoLocalization": {
+        "latitude": 47.66517,
+        "longitude": -2.752452
+      },
+      "cityId": null,
+      "adress": null
+    },
+    {
+      "id": "ddc064e7-453b-45a1-8c2b-7c7bca603a2a",
+      "code": "RESARAIL_STA_8747130",
+      "name": "REDON",
+      "services": ["AccesPlus"],
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "FRXRN"
+        },
+        "CMI": {
+          "@type": "CmiLocalityMetaData",
+          "uicCode": "87471300",
+          "ptCode": null
+        }
+      },
+      "geoLocalization": {
+        "latitude": 47.652008,
+        "longitude": -2.087772
+      },
+      "cityId": null,
+      "adress": null
+    },
+    {
+      "id": "3fa421ef-8db4-45a3-a622-2b126a53d8b9",
+      "code": "RESARAIL_STA_8747600",
+      "name": "LORIENT",
+      "services": ["AccesPlus"],
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "FRLRT"
+        },
+        "CMI": {
+          "@type": "CmiLocalityMetaData",
+          "uicCode": "87476002",
+          "ptCode": null
+        }
+      },
+      "geoLocalization": {
+        "latitude": 47.755596,
+        "longitude": -3.366218
+      },
+      "cityId": null,
+      "adress": null
+    },
+    {
+      "id": "879c3a89-44d5-48dd-b4e2-628af7b8c35d",
+      "code": "RESARAIL_STA_8747100",
+      "name": "RENNES",
+      "services": ["AccesPlus"],
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "FRRNS"
+        },
+        "CMI": {
+          "@type": "CmiLocalityMetaData",
+          "uicCode": "87471003",
+          "ptCode": null
+        }
+      },
+      "geoLocalization": {
+        "latitude": 48.103516,
+        "longitude": -1.67274
+      },
+      "cityId": null,
+      "adress": null
+    },
+    {
+      "id": "30b25423-6027-47c4-b85b-81af7f0ad2a1",
+      "code": "RESARAIL_STA_8739100",
+      "name": "PARIS - MONTPARNASSE - HALL 1 & 2",
+      "services": ["AccesPlus"],
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "FRPMO"
+        },
+        "CMI": {
+          "@type": "CmiLocalityMetaData",
+          "uicCode": "87391003",
+          "ptCode": null
+        }
+      },
+      "geoLocalization": {
+        "latitude": 48.84117,
+        "longitude": 2.320511
+      },
+      "cityId": null,
+      "adress": null
+    },
+    {
+      "id": "30ffabb5-f5ae-4b22-bcd7-995becfaa084",
+      "code": "RESARAIL_STA_8747415",
+      "name": "ROSPORDEN",
+      "services": ["AccesPlus"],
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "FRRSP"
+        },
+        "CMI": {
+          "@type": "CmiLocalityMetaData",
+          "uicCode": "87474155",
+          "ptCode": null
+        }
+      },
+      "geoLocalization": {
+        "latitude": 47.96022,
+        "longitude": -3.832704
+      },
+      "cityId": null,
+      "adress": null
+    },
+    {
+      "id": "ad6d26ea-0973-4683-9f9c-6eb0f22fa23d",
+      "code": "RESARAIL_STA_8747409",
+      "name": "QUIMPER",
+      "services": ["AccesPlus"],
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "FRUIP"
+        },
+        "CMI": {
+          "@type": "CmiLocalityMetaData",
+          "uicCode": "87474098",
+          "ptCode": null
+        }
+      },
+      "geoLocalization": {
+        "latitude": 47.99445,
+        "longitude": -4.092105
+      },
+      "cityId": null,
+      "adress": null
+    }
+  ],
+  "cities": [],
+  "products": [
+    {
+      "id": "edf470dd-e6d2-4d1d-abfe-87cf0e072153",
+      "label": "Tarif NO FLEX ",
+      "code": "FX09",
+      "productConditions": {
+        "microConditions": "Billet non échangeable et non remboursable. ",
+        "generalConditions": null,
+        "termsOfUse": null,
+        "inwardMandatory": false,
+        "flexibility": "NO_FLEXIBILITY",
+        "advantageCard": null
+      },
+      "type": "NORMAL",
+      "metaData": {
+        "PAO": {
+          "@type": "PaoProduct",
+          "metaProductId": "/catalog/metaProducts/TRAIN_VOYAGES_S3"
+        }
+      }
+    },
+    {
+      "id": "3304cf33-26ff-4a1a-96d8-a45a39190c9f",
+      "label": "Tarif STANDARD SECONDE",
+      "code": "JR11",
+      "productConditions": {
+        "microConditions": "Billet échangeable (avec ajustement au tarif en vigueur) et remboursable sans frais jusqu’à J-7. A partir de J-6 et jusqu’au départ:  19€ de frais sur TGV et 40% du prix (max 15€) sur Intercités. Dès 30 min avant départ, billet échangeable une seule fois et non remboursable ensuite. ",
+        "generalConditions": null,
+        "termsOfUse": null,
+        "inwardMandatory": false,
+        "flexibility": "CONDITIONAL_FLEXIBILITY",
+        "advantageCard": null
+      },
+      "type": "NORMAL",
+      "metaData": {
+        "PAO": {
+          "@type": "PaoProduct",
+          "metaProductId": "/catalog/metaProducts/TRAIN_VOYAGES_S3"
+        }
+      }
+    },
+    {
+      "id": "94b3ede8-a9b0-4adc-8850-3f1c39c383e7",
+      "label": "Tarif STANDARD PREMIÈRE",
+      "code": "JR11",
+      "productConditions": {
+        "microConditions": "Billet échangeable (avec ajustement au tarif en vigueur) et remboursable sans frais jusqu’à J-7. A partir de J-6 et jusqu’au départ:  19€ de frais sur TGV et 40% du prix (max 15€) sur Intercités. Dès 30 min avant départ, billet échangeable une seule fois et non remboursable ensuite. ",
+        "generalConditions": null,
+        "termsOfUse": null,
+        "inwardMandatory": false,
+        "flexibility": "CONDITIONAL_FLEXIBILITY",
+        "advantageCard": null
+      },
+      "type": "NORMAL",
+      "metaData": {
+        "PAO": {
+          "@type": "PaoProduct",
+          "metaProductId": "/catalog/metaProducts/TRAIN_VOYAGES_S3"
+        }
+      }
+    },
+    {
+      "id": "7bdac11f-8622-484f-817b-2f5be210488d",
+      "label": "Tarif FLEX PREMIÈRE",
+      "code": "BO25",
+      "productConditions": {
+        "microConditions": "Echange et remboursement sans frais jusqu'à 30 min après départ. Dès 30 min avant départ, billet échangeable 1 fois max et non remboursable après 1 échange. Si emprunt d’un autre train, échange obligatoire. ",
+        "generalConditions": null,
+        "termsOfUse": null,
+        "inwardMandatory": false,
+        "flexibility": "FULL_FLEXIBILITY",
+        "advantageCard": null
+      },
+      "type": "PREMIUM",
+      "metaData": {
+        "PAO": {
+          "@type": "PaoProduct",
+          "metaProductId": "/catalog/metaProducts/TRAIN_VOYAGES_S3"
+        }
+      }
+    },
+    {
+      "id": "b86f783f-d3a4-4546-ba96-a067dc7e8d4e",
+      "label": "Tarif OPTIMUM",
+      "code": "FA25",
+      "productConditions": {
+        "microConditions": "Echange et remboursement sans frais jusqu'à 30 min après départ. Dès 30 min avant départ, billet échangeable 1 fois max et non remboursable après 1 échange. Si emprunt d’un autre train, échange obligatoire. ",
+        "generalConditions": null,
+        "termsOfUse": null,
+        "inwardMandatory": false,
+        "flexibility": "FULL_FLEXIBILITY",
+        "advantageCard": null
+      },
+      "type": "PREMIUM",
+      "metaData": {
+        "PAO": {
+          "@type": "PaoProduct",
+          "metaProductId": "/catalog/metaProducts/TRAIN_VOYAGES_S3"
+        }
+      }
+    }
+  ],
+  "placementChoices": [
+    {
+      "id": "FENETRE",
+      "type": "FENETRE",
+      "typeSpace": "POSITION",
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "AFEN"
+        }
+      }
+    },
+    {
+      "id": "HAUT",
+      "type": "HAUT",
+      "typeSpace": "DECK",
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "ANVH"
+        }
+      }
+    },
+    {
+      "id": "COULOIR",
+      "type": "COULOIR",
+      "typeSpace": "POSITION",
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "ACOU"
+        }
+      }
+    },
+    {
+      "id": "VISION_IMPAIRED",
+      "type": "VISION_IMPAIRED",
+      "typeSpace": "POSITION",
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "AVGL"
+        }
+      }
+    },
+    {
+      "id": "BAS",
+      "type": "BAS",
+      "typeSpace": "DECK",
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "ANVB"
+        }
+      }
+    },
+    {
+      "id": "CLUB_QUATRE",
+      "type": "CLUB_QUATRE",
+      "typeSpace": "POSITION",
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "ACQT"
+        }
+      }
+    },
+    {
+      "id": "PRIORITY_SEAT",
+      "type": "PRIORITY_SEAT",
+      "typeSpace": "CONTINGENT",
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "APAF"
+        }
+      }
+    },
+    {
+      "id": "DUO_COTE_A_COTE",
+      "type": "DUO_COTE_A_COTE",
+      "typeSpace": "SPACE",
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "ADOC"
+        }
+      }
+    },
+    {
+      "id": "DUO_VIS_A_VIS",
+      "type": "DUO_VIS_A_VIS",
+      "typeSpace": "SPACE",
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "ACDO"
+        }
+      }
+    },
+    {
+      "id": "SOLO",
+      "type": "SOLO",
+      "typeSpace": "POSITION",
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCode",
+          "code": "ASLO"
+        }
+      }
+    }
+  ],
+  "comfortSpaces": [
+    {
+      "id": "ESPACE_FAMILLE",
+      "type": "ESPACE_FAMILLE",
+      "price": {
+        "value": 0.0,
+        "currency": "EUR"
+      },
+      "metaData": {
+        "PAO": {
+          "@type": "MetaDataCodeAndType",
+          "code": "AMOM",
+          "type": "AssignmentOption"
+        }
+      }
+    }
+  ],
+  "advantageInformations": [],
+  "searchInfo": {
+    "filteredTravels": [],
+    "filteredProposals": [],
+    "hasFirstTravelOfDay": false,
+    "hasLastTravelOfDay": true,
+    "requestDirectOrViaIgnored": false,
+    "requestTransporterLabelsIgnored": false,
+    "paginations": {
+      "previousPagination": {
+        "paginationType": "PREVIOUS_HOUR",
+        "dateTime": "2025-08-12T07:35:00"
+      },
+      "nextPagination": {
+        "paginationType": "NEXT_DAY",
+        "dateTime": "2025-08-13T05:00:00"
+      }
+    },
+    "partnersDebug": {}
+  },
+  "priceRangeSolution": {
+    "priceRanges": [],
+    "state": {
+      "details": {
+        "workflowMessages": {}
+      }
+    }
+  },
+  "bestPricesByDay": [],
+  "bestPricesSource": null,
+  "filters": {
+    "transporterLabels": ["TGV INOUI"],
+    "excludableLines": [],
+    "excludableConnections": []
+  },
+  "userNavigationContext": [],
+  "conjuncturalMessages": []
+}

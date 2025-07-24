@@ -1,0 +1,180 @@
+name: Proposals
+steps:
+  - name: legacy-pos
+    request:
+      method: POST
+      endpoint: http://localhost:3000/api/booking/point-of-sales
+      basicAuth:
+        username: solar
+        password: password
+      headers:
+        X-Profile-Id: solar-SOLAR_FIXE-PAO_LR_REG-MPD_ISO
+        X-Correlationid: d031cdd2-5ecf-4e33-bfe4-f98ae40a4963
+        X-Requestid: 6add2529-ad70-47d1-b7eb-46a5f2a1bd16
+      payload:
+        accountSession:
+          accountSessionNumber: "8203"
+          accountSessionDateTime: "2025-07-22T16:55:36"
+        channelLniata: "899C90"
+        countryCode: "FR"
+        currency: "EUR"
+        machineTypeCode: "69"
+        revenueOfficeCode: "217"
+        rrCityCode: "FRNTE"
+        saleDeviceCode: "SLG"
+        uicCityCode: "87187112"
+        locationRrCityCode: "FRNTE"
+    assertions:
+      - name: Status code 201
+        type: equal
+        args:
+          - $.conversation.legacy-pos.response.status
+          - '201'
+  - name: legacy-proposals
+    request:
+      method: POST
+      endpoint: http://localhost:3000/api/booking/proposals/v3
+      basicAuth:
+        username: solar
+        password: password
+      headers:
+        X-Client-App-Id : ivts-bff
+        X-Client-Channel : web
+        X-Market-Locale : fr_FR
+        X-Correlationid : d031cdd2-5ecf-4e33-bfe4-f98ae40a4963
+        X-Profile-Id : solar-SOLAR_FIXE-PAO_LR_REG-MPD_ISO
+        X-Pao-PointOfSaleId : $.conversation.pos.response.data.pointOfSalesId
+      payload:
+        wish:
+          mainJourney:
+            origin:
+              type: null
+              codes:
+                RESARAIL:
+  #                code: "FRPAR"
+                  code: "FRPMO"
+              label: null,
+              address: null
+              longitude: 2.376776
+              latitude: 51.034368
+            destination:
+              type: null
+              codes:
+                RESARAIL:
+                  code: "FRUIP"
+              label: null,
+              address: null
+              longitude: 3.066667
+              latitude: 50.633333
+            via: null
+          asymmetricalJourney: null
+          directTravel: true
+          schedule:
+            outward: "undefined"
+            inward: null
+          passengers:
+          - id: "0"
+            typology: "ADULT"
+            customerId: null
+            firstname: null
+            lastname: "Martin"
+            dateOfBirth: null
+            age: 26
+            discountCards: []
+            fidelityCard: null
+            kiOui: null
+            promoCode: null
+            bicycle: null
+            disability: null
+            externalId: "345"
+          pets: []
+          codeFce: null
+        searchCriteria:
+          dateTimeRange: null
+          itineraryEngineDebugParameters: null
+          itineraryServiceParameters:
+            startOriginRadius: null
+            startDestinationRadius: null
+          predictParameters: null
+          transporterLabels: []
+        searchContext:
+          features:
+          - CMI_SHOP
+          - ADVANTAGE
+        selectedTravel: null
+    transformations:
+      - key: legacyOriginLocalityIds
+        value: $.conversation.legacy-proposals.response.data.travels[*].originLocalityId
+      - key: legacyDestinationLocalityIds
+        value: $.conversation.legacy-proposals.response.data.travels[*].destinationLocalityId
+      - key: legacySegmentOriginLocalityIds
+        value: $.conversation.legacy-proposals.response.data.travels[*].segments[0].originLocalityId
+      - key: legacySegmentDestinationLocalityIds
+        value: $.conversation.legacy-proposals.response.data.travels[*].segments[0].destinationLocalityId
+      - key: legacyOriginLocalityCodes
+        type: findByIds
+        args:
+          - $.conversation.legacy-proposals.response.data.travels[*].originLocalityId
+          - $.conversation.legacy-proposals.response.data.localities
+          - metaData.PAO.code
+      - key: legacyDestinationLocalityCodes
+        type: findByIds
+        args:
+          - $.conversation.legacy-proposals.response.data.travels[*].destinationLocalityId
+          - $.conversation.legacy-proposals.response.data.localities
+          - metaData.PAO.code
+      - key: legacyPrices
+        value: $.conversation.legacy-proposals.response.data.travels[*].proposals[0].price.value
+    assertions:
+      - name: Legacy proposals response status code is 200
+        type: equal
+        args:
+          - $.conversation.legacy-proposals.response.status
+          - '200'
+      - name: Legacy proposals response has same origin ID in travels and first segment
+        type: equal
+        args:
+          - $.state.result.legacyOriginLocalityIds
+          - $.state.result.legacySegmentOriginLocalityIds
+      - name: Legacy proposals response has same destination ID in travels and first segment
+        type: equal
+        args:
+          - $.state.result.legacyDestinationLocalityIds
+          - $.state.result.legacySegmentDestinationLocalityIds
+      - name: Legacy proposals response has same origin ID in travels and request
+        type: equal
+        args:
+          - $.state.result.legacyOriginLocalityCodes[0]
+          - $.conversation.legacy-proposals.request.body.wish.mainJourney.origin.codes.RESARAIL.code
+  - name: actual-trips
+    request:
+      method: GET
+      endpoint: http://localhost:3001/api/booking/trips
+    transformations:
+      - key: actualOriginLocalityCodes
+        value: $.conversation.actual-trips.response.data.trips[*].originLocalityCode
+      - key: actualDestinationLocalityCodes
+        value: $.conversation.actual-trips.response.data.trips[*].destinationLocalityCode
+      - key: actualPrices
+        value: $.conversation.actual-trips.response.data.trips[*].price
+    assertions:
+      - name: Actual trips response status code is 200
+        type: equal
+        args:
+          - $.conversation.actual-trips.response.status
+          - '200'
+      - name: Legacy proposals and actual trips have same origin locality codes
+        type: equal
+        args:
+          - $.state.result.legacyOriginLocalityCodes
+          - $.state.result.actualOriginLocalityCodes
+      - name: Legacy proposals and actual trips have same destination locality codes
+        type: equal
+        args:
+          - $.state.result.legacyDestinationLocalityCodes
+          - $.state.result.actualDestinationLocalityCodes
+      - name: Legacy proposals and actual trips have same prices
+        type: equal
+        args:
+          - $.state.result.legacyPrices
+          - $.state.result.actualPrices

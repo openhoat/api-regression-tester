@@ -1,0 +1,40 @@
+{
+  "trips": [
+    {
+      "id": "1",
+      "originLocalityCode": "FRPMO",
+      "destinationLocalityCode": "FRUIP",
+      "price": 47
+    },
+    {
+      "id": "2",
+      "originLocalityCode": "FRPMO",
+      "destinationLocalityCode": "FRUIP",
+      "price": 29
+    },
+    {
+      "id": "3",
+      "originLocalityCode": "FRPMO",
+      "destinationLocalityCode": "FRUIP",
+      "price": 76
+    },
+    {
+      "id": "4",
+      "originLocalityCode": "FRPMO",
+      "destinationLocalityCode": "FRUIP",
+      "price": 76
+    },
+    {
+      "id": "5",
+      "originLocalityCode": "FRPMO",
+      "destinationLocalityCode": "FRUIP",
+      "price": 76
+    },
+    {
+      "id": "6",
+      "originLocalityCode": "FRPMO",
+      "destinationLocalityCode": "FRUIP",
+      "price": 76
+    }
+  ]
+}

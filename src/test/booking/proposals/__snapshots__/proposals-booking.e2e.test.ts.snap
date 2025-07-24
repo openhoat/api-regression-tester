@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Booking API e2e test proposals sequence should execute proposals sequence 1`] = `
+{
+  "actualDestinationLocalityCodes": [
+    "FRUIP",
+    "FRUIP",
+    "FRUIP",
+    "FRUIP",
+    "FRUIP",
+    "FRUIP",
+  ],
+  "actualOriginLocalityCodes": [
+    "FRPMO",
+    "FRPMO",
+    "FRPMO",
+    "FRPMO",
+    "FRPMO",
+    "FRPMO",
+  ],
+  "actualPrices": [
+    47,
+    29,
+    76,
+    76,
+    76,
+    76,
+  ],
+  "legacyDestinationLocalityCodes": [
+    "FRUIP",
+    "FRUIP",
+    "FRUIP",
+    "FRUIP",
+    "FRUIP",
+    "FRUIP",
+  ],
+  "legacyDestinationLocalityIds": [
+    Any<String>,
+    Any<String>,
+    Any<String>,
+    Any<String>,
+    Any<String>,
+    Any<String>,
+  ],
+  "legacyOriginLocalityCodes": [
+    "FRPMO",
+    "FRPMO",
+    "FRPMO",
+    "FRPMO",
+    "FRPMO",
+    "FRPMO",
+  ],
+  "legacyOriginLocalityIds": [
+    Any<String>,
+    Any<String>,
+    Any<String>,
+    Any<String>,
+    Any<String>,
+    Any<String>,
+  ],
+  "legacyPrices": [
+    47,
+    29,
+    76,
+    76,
+    76,
+    76,
+  ],
+  "legacySegmentDestinationLocalityIds": [
+    Any<String>,
+    Any<String>,
+    Any<String>,
+    Any<String>,
+    Any<String>,
+    Any<String>,
+  ],
+  "legacySegmentOriginLocalityIds": [
+    Any<String>,
+    Any<String>,
+    Any<String>,
+    Any<String>,
+    Any<String>,
+    Any<String>,
+  ],
+}
+`;
