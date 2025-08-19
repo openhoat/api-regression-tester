@@ -24,6 +24,16 @@ const transformations: DiffConfig['transformations'] = [
     toKey: 'date',
     toValue: (value: unknown) => dayjs(Number(`${value}`)).format('DD/M/YYYY'),
   },
+  {
+    fromKey: 'updatedAt',
+    toKey: 'updated',
+    toValue: (value: unknown) => {
+      if (typeof value !== 'string') {
+        return value
+      }
+      return dayjs(value, 'DD/MM/YYYY').format('DD/M/YYYY')
+    },
+  },
 ]
 
 const diffConfig: DiffConfig = {
